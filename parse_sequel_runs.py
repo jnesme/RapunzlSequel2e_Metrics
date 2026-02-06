@@ -69,21 +69,25 @@ class SequelRunParser:
         """Extract run conditions from consensusreadset.xml (HiFi/CCS runs)"""
         tree = ET.parse(xml_path)
         root = tree.getroot()
-        
+
         data = {
             'xml_file': xml_path.name,
-            'run_path': str(xml_path.parent)
+            'run_path': str(xml_path.parent),
+            # Extract run ID from path (e.g., r64241e_20251015_111824)
+            'run_id': xml_path.parent.parent.name if 'r64241e_' in xml_path.parent.parent.name else None
         }
-        
-        # Basic dataset info
-        total_length = root.find('.//pbds:TotalLength', self.NAMESPACES)
-        num_records = root.find('.//pbds:NumRecords', self.NAMESPACES)
-        
-        if total_length is not None:
-            data['total_length'] = int(total_length.text)
-        if num_records is not None:
-            data['num_records'] = int(num_records.text)
-            
+
+        # Basic dataset info - must be from DataSetMetadata, not ExternalResources
+        dataset_metadata = root.find('pbds:DataSetMetadata', self.NAMESPACES)
+        if dataset_metadata is not None:
+            total_length = dataset_metadata.find('pbds:TotalLength', self.NAMESPACES)
+            num_records = dataset_metadata.find('pbds:NumRecords', self.NAMESPACES)
+
+            if total_length is not None:
+                data['total_length'] = int(total_length.text)
+            if num_records is not None:
+                data['num_records'] = int(num_records.text)
+
         # Collection metadata
         collection = root.find('.//pbmeta:CollectionMetadata', self.NAMESPACES)
         if collection is not None:
@@ -142,21 +146,25 @@ class SequelRunParser:
         """Extract run conditions from subreadset.xml (CLR runs)"""
         tree = ET.parse(xml_path)
         root = tree.getroot()
-        
+
         data = {
             'xml_file': xml_path.name,
-            'run_path': str(xml_path.parent)
+            'run_path': str(xml_path.parent),
+            # Extract run ID from path
+            'run_id': xml_path.parent.parent.name if 'r64241e_' in xml_path.parent.parent.name else None
         }
-        
-        # Basic dataset info
-        total_length = root.find('.//pbds:TotalLength', self.NAMESPACES)
-        num_records = root.find('.//pbds:NumRecords', self.NAMESPACES)
-        
-        if total_length is not None:
-            data['total_length'] = int(total_length.text)
-        if num_records is not None:
-            data['num_records'] = int(num_records.text)
-            
+
+        # Basic dataset info - must be from DataSetMetadata, not ExternalResources
+        dataset_metadata = root.find('pbds:DataSetMetadata', self.NAMESPACES)
+        if dataset_metadata is not None:
+            total_length = dataset_metadata.find('pbds:TotalLength', self.NAMESPACES)
+            num_records = dataset_metadata.find('pbds:NumRecords', self.NAMESPACES)
+
+            if total_length is not None:
+                data['total_length'] = int(total_length.text)
+            if num_records is not None:
+                data['num_records'] = int(num_records.text)
+
         # Collection metadata
         collection = root.find('.//pbmeta:CollectionMetadata', self.NAMESPACES)
         if collection is not None:
