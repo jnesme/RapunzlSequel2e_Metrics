@@ -77,6 +77,15 @@ class SequelRunParser:
             'run_id': xml_path.parent.parent.name if 'r64241e_' in xml_path.parent.parent.name else None
         }
 
+        # Check BAM file type - hifi_reads.bam vs reads.bam
+        # .hifi_reads.bam = Q20+ filtered HiFi reads (correct for yield)
+        # .reads.bam = all CCS reads including low-quality (inflated yield)
+        bam_resource = root.find('.//pbbase:ExternalResource[@MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile"]', self.NAMESPACES)
+        if bam_resource is not None:
+            bam_file = bam_resource.get('ResourceId', '')
+            data['bam_file'] = bam_file
+            data['is_hifi_bam'] = '.hifi_reads.bam' in bam_file
+
         # Basic dataset info - must be from DataSetMetadata, not ExternalResources
         dataset_metadata = root.find('pbds:DataSetMetadata', self.NAMESPACES)
         if dataset_metadata is not None:
