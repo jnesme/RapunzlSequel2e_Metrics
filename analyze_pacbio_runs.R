@@ -13,7 +13,7 @@ library(broom)
 theme_set(theme_bw(base_size = 12))
 
 # Read data
-data <- read_csv("ALL_260206.csv", show_col_types = FALSE)
+data <- read_csv("ALL_260207.csv", show_col_types = FALSE)
 
 # Cleanup: remove CLR runs, diagnostic runs, and non-HiFi BAM references
 data <- data %>%
@@ -302,3 +302,4 @@ best_model <- if (summary(model_with_insert)$adj.r.squared >
 } else {
   model_interaction
 }
+
