@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pbds:ConsensusReadSet CreatedAt="2023-11-09T11:30:19.807Z" MetaType="PacBio.DataSet.ConsensusReadSet" Name="PB034_IsolatesPoolMads-Cell1 (CCS)" Tags="ccs,barcoded" TimeStampedName="PB034_IsolatesPoolMads-Cell1 (CCS)-231109_113019807" UniqueId="93dd6115-f2e0-44a9-84e0-ae3986cc8e51" Version="3.0.1" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbdm="http://pacificbiosciences.com/PacBioDataModel.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbpn="http://pacificbiosciences.com/PacBioPartNumbers.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd">
+	<pbds:DataSetMetadata>
+		<pbds:TotalLength>11911</pbds:TotalLength>
+		<pbds:NumRecords>6</pbds:NumRecords>
+		<Collections xmlns="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd">
+			<CollectionMetadata Context="m64241e_231108_132949" CreatedAt="2023-11-08T13:14:24.619+00:00" InstrumentId="64241e" InstrumentName="RapunzlSequel2e" MetaType="CollectionMetadata" ModifiedAt="0001-01-01T00:00:00" Status="Ready" TimeStampedName="64241e-CollectionMetadata-2023-15-08T13:15:44.692Z" UniqueId="723aadc6-f266-44e9-82c6-fb4678ba2356">
+				<pbmeta:MultiJobId>965</pbmeta:MultiJobId>
+				<pbmeta:ConsensusReadSetRef UniqueId="bc285e58-9bdc-4be0-9d44-66b92685459e" />
+				<pbmeta:RunDetails>
+					<pbmeta:TimeStampedName>r64241e_20231108_131544</pbmeta:TimeStampedName>
+					<pbmeta:Name>Run20231108OrderPB034</pbmeta:Name>
+					<pbmeta:CreatedBy>admin</pbmeta:CreatedBy>
+					<pbmeta:WhenCreated>2023-11-08T13:14:24.619+00:00</pbmeta:WhenCreated>
+					<pbmeta:StartedBy>unknown</pbmeta:StartedBy>
+					<pbmeta:WhenStarted>0001-01-01T00:00:00</pbmeta:WhenStarted>
+				</pbmeta:RunDetails>
+				<pbmeta:WellSample CreatedAt="2023-11-08T13:14:24.619+00:00" Description="48 Microbial isolates genome sequencing" ModifiedAt="0001-01-01T00:00:00" Name="PB034_IsolatesPoolMads">
+					<pbmeta:WellName>A01</pbmeta:WellName>
+					<pbmeta:Application>microbialAssembly</pbmeta:Application>
+					<pbmeta:Concentration>0</pbmeta:Concentration>
+					<pbmeta:OnPlateLoadingConcentration>90</pbmeta:OnPlateLoadingConcentration>
+					<pbmeta:InsertSize>10000</pbmeta:InsertSize>
+					<pbmeta:IsoSeq>false</pbmeta:IsoSeq>
+					<pbmeta:IsCCS>true</pbmeta:IsCCS>
+					<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+					<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+					<pbmeta:UseCount>0</pbmeta:UseCount>
+					<pbmeta:DNAControlComplex>Sequel® II DNA Internal Control 1.0</pbmeta:DNAControlComplex>
+					<pbsample:BioSamples xmlns="http://pacificbiosciences.com/PacBioSampleInfo.xsd">
+						<pbsample:BioSample Name="Isolate_1A_Sample.C1">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2096--bc2096" UniqueId="6824a635-7bdf-462f-b2fa-9617f19cc493" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1B_Sample.B16">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2095--bc2095" UniqueId="f3404d99-c489-4f39-bf07-4a02a455b720" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1C_Sample.I4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2094--bc2094" UniqueId="14a5d5f0-6bfc-4889-bc75-8012bf55193c" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1D_Sample.K3">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2093--bc2093" UniqueId="0bb5de18-34dd-4a35-b642-6ec8f58af0db" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1E_Sample.B71">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2092--bc2092" UniqueId="5f826725-9257-4f94-bf2a-572d7042c860" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1F_Sample.D1">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2091--bc2091" UniqueId="b213898d-8720-45ce-bb74-108ab9738692" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1G_Sample.1667">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2090--bc2090" UniqueId="2fc13340-3671-4faa-a7b7-13eb6ed647ab" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_1H_Sample.1665">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2089--bc2089" UniqueId="bc496a61-a96e-45b1-a8be-8d50541c2f1e" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2A_Sample.I2">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2088--bc2088" UniqueId="066a4871-dd96-470c-a887-3646ecf671c8" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2B_Sample.J4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2087--bc2087" UniqueId="906774a9-a487-4b7a-8c50-6c7a59af5558" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2C_Sample.1664">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2086--bc2086" UniqueId="e8745d0b-b716-45a5-b9e3-1ea13fee27d3" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2D_Sample.1666">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2085--bc2085" UniqueId="31902cc1-a2e7-4b8e-b6f2-a3f15eb1a30d" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2E_Sample.A63">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2084--bc2084" UniqueId="8bbe7072-7b32-4818-937a-2753d7f9717c" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2F_Sample.A84">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2083--bc2083" UniqueId="c45635db-c5fc-4b4d-8909-54f1820af05d" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2G_Sample.C4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2082--bc2082" UniqueId="08f4e94d-6ad9-4321-bdfa-b5ec2a2a9efc" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_2H_Sample.B79">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2081--bc2081" UniqueId="fb07ed21-0783-4499-82d3-c9f2835185e2" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3A_Sample.F4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2080--bc2080" UniqueId="71244898-6f44-4069-bd11-d25c7df71f64" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3B_Sample.G4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2079--bc2079" UniqueId="6ee829fe-fadc-47c0-af8b-f99f06faa6d8" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3C_Sample.B30">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2078--bc2078" UniqueId="dc388f46-dc52-450a-825a-f22029842f23" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3D_Sample.A66">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2077--bc2077" UniqueId="48d8154d-5700-4b3c-b285-037c9d427dd3" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3E_Sample.B4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2076--bc2076" UniqueId="2ab4e995-8972-41e5-bd48-34aa1f6579d6" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3F_Sample.B7">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2075--bc2075" UniqueId="e790b6fc-63f0-4e54-9b07-9abf546599a2" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3G_Sample.B46">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2074--bc2074" UniqueId="a2893fcd-242a-43ff-a361-3f10586f7d3e" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_3H_Sample.A100">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2073--bc2073" UniqueId="2931adcc-1e18-49a1-a4fb-14f270bee53a" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4A_Sample.B18">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2072--bc2072" UniqueId="103aab1d-c12f-4c2c-8cc8-e9353c3e7493" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4B_Sample.G2">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2071--bc2071" UniqueId="b1532a51-b41c-4843-87f2-55907b697d79" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4C_Sample.A69">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2070--bc2070" UniqueId="8ea8c926-46cc-47e9-a702-e72c9970179c" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4D_Sample.E9">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2069--bc2069" UniqueId="123ae6c2-c291-4e79-b0bf-0cfd796ab0af" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4E_Sample.A21">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2068--bc2068" UniqueId="c5af0f73-d760-469d-9ef4-a3cfb6cb7347" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4F_Sample.A65">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2067--bc2067" UniqueId="a64e7b28-30ae-419d-84d4-fb94d12d22f4" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4G_Sample.B83">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2066--bc2066" UniqueId="9e37422a-a03f-406e-b5c8-10134799af4f" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_4H_Sample.B20">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2065--bc2065" UniqueId="5c3c57ae-e283-4031-809e-24d04d3c3c43" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5A_Sample.A36">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2064--bc2064" UniqueId="489922e7-44ad-4f56-a103-67367aa35fa3" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5B_Sample.N3">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2063--bc2063" UniqueId="3693de80-a090-4397-a656-d7fbfda57e77" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5C_Sample.C10">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2062--bc2062" UniqueId="4946d83a-1a3d-4cf7-afc1-58935169127a" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5D_Sample.H3">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2061--bc2061" UniqueId="7e409655-ddce-464b-af95-fc33c1e39a24" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5E_Sample.A7">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2060--bc2060" UniqueId="a4091332-982d-4f91-abc4-d35bce3043bd" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5F_Sample.D5">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2059--bc2059" UniqueId="69ba59fa-7f6c-4dae-a56a-2d0ace928efa" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5G_Sample.H7">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2058--bc2058" UniqueId="0f363e55-cce2-40f8-8b42-1ed288d970ed" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_5H_Sample.E7">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2057--bc2057" UniqueId="934a6d4c-c8b4-4403-9490-91749d93e217" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6A_Sample.E3">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2056--bc2056" UniqueId="dd6beb26-1603-4c0c-97ff-82fd38dfed25" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6B_Sample.A3">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2055--bc2055" UniqueId="7ae4048d-b8a0-4744-8312-6bd1e2ba8d13" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6C_Sample.F2">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2054--bc2054" UniqueId="986f78d8-2e5f-4dff-bcb1-943d2ea73eb6" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6D_Sample.N4">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2053--bc2053" UniqueId="b33dcce4-918f-48fe-b59f-e94c1ea10971" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6E_Sample.J2">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2052--bc2052" UniqueId="5d1b2723-d545-4a32-a022-3624a02debae" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6F_Sample.A2">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2051--bc2051" UniqueId="54a47456-93fb-4124-85bc-610a492f5766" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Isolate_6G_Sample.F1">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2050--bc2050" UniqueId="0c55aa0d-1cce-44e6-85a2-486a9be15e43" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+					</pbsample:BioSamples>
+				</pbmeta:WellSample>
+				<pbmeta:Automation Name="Diffusion">
+					<pbbase:AutomationParameters xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="MovieLength" SimpleValue="900.0" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingCognate" SimpleValue="True" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingTarget" SimpleValue="0.85" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingMaxImmobilization" SimpleValue="120" ValueDataType="Int32" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ReuseCell" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ExtendFirst" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ExtensionTime" SimpleValue="120" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ImmobilizationTime" SimpleValue="120" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="TotalSamples" SimpleValue="47" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="PCDinPlate" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter Name="UsePredictiveLoadingBuffer" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter Name="CollectionNumber" SimpleValue="0" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="InsertSize" SimpleValue="10000" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="BindingKitPartNumber" SimpleValue="101-894-200" ValueDataType="String" />
+						<pbbase:AutomationParameter Name="PPAEstimatedDuration" SimpleValue="345" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPAMinDuration" SimpleValue="240.105" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPAMaxDuration" SimpleValue="449.895" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPATimeout" SimpleValue="1830" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="CCSOverheadDurationMinutesPerUmyGBase" SimpleValue="0.9" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="TipSearchMaxDuration" SimpleValue="576" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="SNRCut" SimpleValue="1.5" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="HQRFMethod" SimpleValue="N2" ValueDataType="String" />
+					</pbbase:AutomationParameters>
+					<pbmeta:Defaults xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" />
+				</pbmeta:Automation>
+				<pbmeta:CollectionNumber>0</pbmeta:CollectionNumber>
+				<pbmeta:CellIndex>0</pbmeta:CellIndex>
+				<pbmeta:SetNumber>0</pbmeta:SetNumber>
+				<pbmeta:CellPac Barcode="DA092116" Description="Individual 4 Pack containing 4 SMRT®Cells each containing 7.76 million ZMWs" ExpirationDate="2022-04-23" LotNumber="416887" MovieTimeGrade="LR" Name="Sequel® II SMRT® Cell 8M (4/tray)" PartNumber="101-389-001" Version="1.0">
+					<pbmeta:ChipLayout xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">Spider_1p0_NTO</pbmeta:ChipLayout>
+				</pbmeta:CellPac>
+				<pbmeta:ControlKit Barcode="Lxxxxx101717600123199" ChipType="8mChip" Description="The Sequel Dev DNA Internal Control 1.0 contains a fixed template of 2 kb length bound to Sequel Dev Binding Kit 1.0 for use as an internal sequencing control. Reagent quantities provide spike-in controls for a minimum of 24 samples." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II DNA Internal Control 1.0" PartNumber="101-717-600" Tags="Control Kit, CCK" Version="1.0">
+					<pbmeta:CustomSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">&gt;left_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;right_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;custom_sequence\nTGTCTAGGTCATCTCAACGTAGCTTTGACATATAACTTATCTAAAGTAATCCCTGCACACCTGTATGCATTATGCTTGCTATACACGCGGACACAGGCATATCATTTATTTTTTGCCATGTCCATTAATTGTTCAATAATTTTACTCACGGTATTTAATTTGATGTTGTGTTATATAGAATTGGAATTAAACTTATAAGGATGCTTAGACGTTGCATTATAAAAGTTTATGTACTAAGTATTTAAGACATTGGCATATGATTATAGCTTGACATTATTAAAAATTAATTAATTAAATCTCACACAATACTTATTCAAGACATTTTTACTAAGATAACCAAAGGAATGCGAACAAAATAATACTTAAAATATAAGACTTAGAAGTAATATGATCCAATAGTTACATATAGTACACTAAGTTCCTAAATTATATAACTTTAAAACAAAGTTACGAAATTTGGAAATAATTTTATTTAATCATATTTTCATAATAATGAAATACTGTTTATTTCAGTGGCGAAAAGAGATAATACGATTTTATAGTGATAGAATATCCTTGAAATATCTAAAGATAAAATTAGAAACTTTCTCTTTTCGCTGTAAAGCTATATGACTTAAAAATAACTTATACGCAAAGTATATTGCAGTGGAAACCCAAGAGTATAGTAGCCATGTAATCTCGGGTTCGAAACTACACGCCGCGCACGTAGTCAGATGGTCTGAAACTTGTCTGGGGCTGTTTGTTGACGGATGGAGACTTCACTAAGTGGCGTCAGGCGATGCGCACACACGGGACTCAATCCCGTAGCATGTTATGTGTCGTTCGAAACTCGTGCGTTCGAGATTTACGCCACATTGCCGGCTGGTCCAAGGACGTTATCTACCAGATGATACGGTCCAATTCGTAAGTTTGACTCACATAGTCGCGAACCGCGGAGCTGGAGAACAATAATTACCGGATGATTAGTTGACCATACGCACTATCATGCTCCGTGACTCAGTTTCCGCCATGGAGTTCTCACAGCCCCGTGTGTACCATAACTGCAGTAAGTAAGGACCTTGTTCGGAGGCCGACTCGTATTTCATATGATCTTAGTCTCGCCACCTTATCGCACGAATTGGGGGTGTCTTTTAGCCGACTCCGGCACGATCCGCCGGGAAGTTACTCGACCAGTTGCGGGACGCCCTAGTATGTTCGTATTACGTTCGATGCGTAAGCACCCCAGAGATTTTTGGCGGACGTTTCGGTAAATCATAGTAGAACCGGAGCGGTAAAGCTATTGATAACACGCAGGGACGAGCCAGTCGTCTAAGCTCCTCAGGGGTACCGTTCGCCGGACTACAGCCTGTCCCCGGCGGCCGCAACTGGGCTGCGATCCAGCCCCCGCTCCAAAAGGATGACTCGACCTTGCGCCTCGCGTACTCTGCTCTCGAGCTGTCTCCGTGGGCAATGCCGGCTCACGCTGTGGGGAACCCTGGACGCCCGGGCCGAGCCGACGTGGCCCCGCCCAGGCCTTTTCGTCGATCGCAGCTATGTACCCTGTGCTGGCCAGCGCTACTGCGCCGGCCATTAGCGGTGCGCTCTCGACTCGGCCCCAACGTAGACGGCGTCGCTGGCCGGATTCAAAGAAGTGAGCTACTACCATCGCGTGACGCCCTGCGGGCCTGAGTAACCGTGCACGAAGGACACCCCGTTCGTGGCGGGGGTTGCCTCCGCGACGGTCGCCAACGTTGGGGGTCGGTGCATTCAGGCGACGAGGGACCGCTGGTTTCCGGAGAGCGGCCTGTGCTCACACAGGTGCGGTCCATGGGGCCTGTGGATCCGGTTCTCCCACGCGTAGCGCCGGCGTTAGCATGGACGCTAAATAAGTATACGCCGGCAAAGGGAGTGTAGGCCGGCCCGAGGGCAATCGCGGTTACCGGGGTGGGGGAGCTCCCCGCACCAGCCTTGATGTGGTGTGCGAGCG</pbmeta:CustomSequence>
+				</pbmeta:ControlKit>
+				<pbmeta:TemplatePrepKit Barcode="Lxxxxx100938900123199" Description="The SMRTbell® Template Prep Kit contains reagent supplies to perform 96 automated SMRTbell non-size-selected library preparations of primer-annealed SMRTbell libraries for insert sizes ranging from 500 bp to over 20 kb. Reagents come in 4 x 24 reaction sets." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" MaxInsertSize="20000" MinInsertSize="500" Name="SMRTbell® Express Template Prep Kit 2.0" PartNumber="100-938-900" Tags="Template Prep Kit, TPK" Version="2.0">
+					<pbmeta:LeftAdaptorSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbmeta:LeftAdaptorSequence>
+					<pbmeta:LeftPrimerSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">aacggaggaggagga</pbmeta:LeftPrimerSequence>
+					<pbmeta:RightAdaptorSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbmeta:RightAdaptorSequence>
+					<pbmeta:RightPrimerSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">aacggaggaggagga</pbmeta:RightPrimerSequence>
+				</pbmeta:TemplatePrepKit>
+				<pbmeta:BindingKit Barcode="Lxxxxx101894200123199" ChipType="8mChip" Description="The Sequel II Binding Kit 2.2 contains reagent supplies to bind prepared DNA template libraries to the Sequel Polymerase 2.2 in preparation for sequencing on the Sequel System. The result is a DNA polymerase/template complex. Sequel II Binding Kit 2.2 should be used only with Sequel II Sequencing Kit 2.0. Reagent quantities support 24 binding reactions." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II Binding Kit 2.2" PartNumber="101-894-200" Tags="Binding Kit, BDK" Version="1.0" />
+				<pbmeta:SequencingKitPlate Barcode="029990102186000092023" ChipType="8mChip" Description="The DNA Sequencing Kit contains a sequencing reagent plate with chemistry for single molecule real-time sequencing on the PacBio Sequel® II with Dynamic Loading. Reagent quantities support 1 sequencing reaction to be used in conjunction with SMRT® Cell 1Pac(s).  (1 Cell max/Each Row supplies reagents for 1 Sequel SMRT Cell)" ExpirationDate="2023-09-20" LotNumber="029990" MaxCollections="1" Name="Sequel® II Sequencing Plate 2.0 (1 rxn)" NumOseTubes="0" PartNumber="102-186-000" SupportsDynamicLoading="true" Tags="Sequencing Kit, SQK" Version="2.0">
+					<pbmeta:ReagentTubes Barcode="029416100619600083126" ExpirationDate="2026-08-31" LotNumber="029416" Name="Sequel® SMRT®Cell Oil" PartNumber="100-619-600" xmlns="http://pacificbiosciences.com/PacBioReagentKit.xsd" />
+				</pbmeta:SequencingKitPlate>
+				<pbmeta:Primary>
+					<pbmeta:AutomationName>SequelAlpha</pbmeta:AutomationName>
+					<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+					<pbmeta:SequencingCondition>DefaultPrimarySequencingCondition</pbmeta:SequencingCondition>
+					<pbmeta:CCSOptions>
+						<pbmeta:ExecutionMode>OnInstrument</pbmeta:ExecutionMode>
+						<pbmeta:IncludeKinetics>true</pbmeta:IncludeKinetics>
+					</pbmeta:CCSOptions>
+					<pbmeta:OutputOptions>
+						<pbmeta:ResultsFolder>r64241e_20231108_131544/1_A01/</pbmeta:ResultsFolder>
+						<pbmeta:CollectionPathUri>/projects/codon_0000/data/RapunzlSequel2e/r64241e_20231108_131544/1_A01/</pbmeta:CollectionPathUri>
+						<pbmeta:CopyFiles>
+							<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+						</pbmeta:CopyFiles>
+						<pbmeta:Readout>Bases_Without_QVs</pbmeta:Readout>
+						<pbmeta:MetricsVerbosity>Minimal</pbmeta:MetricsVerbosity>
+						<pbmeta:TransferResource>
+							<pbmeta:Id>srs-scheme-1</pbmeta:Id>
+							<pbmeta:TransferScheme>SRS</pbmeta:TransferScheme>
+							<pbmeta:Name>University of Copenhagen SRS</pbmeta:Name>
+							<pbmeta:Description>Description of SRS (Rsync+SSH) Transfer SRS scheme name with destPath</pbmeta:Description>
+							<pbmeta:DestPath>/projects/codon_0000/data/RapunzlSequel2e</pbmeta:DestPath>
+						</pbmeta:TransferResource>
+					</pbmeta:OutputOptions>
+				</pbmeta:Primary>
+				<pbmeta:Secondary>
+					<pbmeta:AutomationName>SMRTLinkRunDesign</pbmeta:AutomationName>
+					<pbbase:AutomationParameters>
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="SourceId" SimpleValue="smrtlink-rest-api" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="CCS" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="CCSMode" SimpleValue="OnInstrument" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="Kinetics" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="AllReads" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="Demultiplex" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DemultiplexMode" SimpleValue="OnInstrument" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="BarcodesUuid" SimpleValue="a512b00f-c64b-a631-c886-6adc57f942b5" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DemultiplexPreset" SimpleValue="SYMMETRIC-ADAPTERS" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="CpG" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="AAV" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="Heteroduplex" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name="SampleSubreadsPct" SimpleValue="0" ValueDataType="Int32" />
+					</pbbase:AutomationParameters>
+					<pbmeta:BarcodesFasta>PmJjMjAwMQpBVENHVEdDR0FDR0FHVEFUCj5iYzIwMDIKVEdDQVRHVENBVEdBR1RBVAo+YmMyMDAzCkFDR0FHVEdDVENHQUdUQVQKPmJjMjAwNApUR0NBR1RHQ1RDR0FHVEFUCj5iYzIwMDUKVEdBQ1RDR0FUQ0dBR1RBVAo+YmMyMDA2CkNBVEdDR0FUQ1RHQUdUQVQKPmJjMjAwNwpBQ1RBR0NBVENUR0FHVEFUCj5iYzIwMDgKQUNHQ1RBR1RDVEdBR1RBVAo+YmMyMDA5CkNHQVRDR0NBQ1RHQUdUQVQKPmJjMjAxMApUQUNHVEFHVEFUR0FHVEFUCj5iYzIwMTEKQ1RHQUNBR1RBQ0dBR1RBVAo+YmMyMDEyClRDR1RBQ1RBQ1RHQUdUQVQKPmJjMjAxMwpDVEdDR1RBR0FDR0FHVEFUCj5iYzIwMTQKQVRBQ0FUR0NBQ0dBR1RBVAo+YmMyMDE1CkNHQUNBVEFHQVRHQUdUQVQKPmJjMjAxNgpBVENUR0NBQ0dUR0FHVEFUCj5iYzIwMTcKQ1RBVEdBVEFHQ0dBR1RBVAo+YmMyMDE4CkNHQVRDQUdUR0NHQUdUQVQKPmJjMjAxOQpDR1RDQVRBR1RDR0FHVEFUCj5iYzIwMjAKQUNUQVRHQ0dUQ0dBR1RBVAo+YmMyMDIxCkNHVEFDQVRHQ1RHQUdUQVQKPmJjMjAyMgpUQ0FUQ0dBQ0dUR0FHVEFUCj5iYzIwMjMKVENHQ0FUR0FDVEdBR1RBVAo+YmMyMDI0CkNBVEdBVENHQUNHQUdUQVQKPmJjMjAyNQpBQ0dDQUNHVEFDR0FHVEFUCj5iYzIwMjYKQ0FHVEFHQ0dUQ0dBR1RBVAo+YmMyMDI3ClRHQUNUR1RBR0NHQUdUQVQKPmJjMjAyOApBQ1RHQ0FHQ0FDR0FHVEFUCj5iYzIwMjkKVEFHQ0FHVEFUQ0dBR1RBVAo+YmMyMDMwCkNBVEFDQUdDQVRHQUdUQVQKPmJjMjAzMQpBVEFHQ0dUQUNUR0FHVEFUCj5iYzIwMzIKQVRBR0FDR0FHVEdBR1RBVAo+YmMyMDMzCkNHQUNUQ0dUQVRHQUdUQVQKPmJjMjAzNApUQUNUQUdUR0FDR0FHVEFUCj5iYzIwMzUKQ0FHQ1RHQUNBVEdBR1RBVAo+YmMyMDM2CkFDR1RDR0NUR0NHQUdUQVQKPmJjMjAzNwpDQUdUQVRHQUdDR0FHVEFUCj5iYzIwMzgKVENBQ0dBQ0dBQ0dBR1RBVAo+YmMyMDM5CkNBVEdUQVRHVENHQUdUQVQKPmJjMjA0MApUR0NUR0NHQUNUR0FHVEFUCj5iYzIwNDEKVEFUR0FUQ0FDVEdBR1RBVAo+YmMyMDQyClRDVEdDQUNUR0NHQUdUQVQKPmJjMjA0MwpBQ0dBVEdBQ0dUR0FHVEFUCj5iYzIwNDQKQ0dBVEdBVEdDVEdBR1RBVAo+YmMyMDQ1ClRBQ0dBQ0FHVENHQUdUQVQKPmJjMjA0NgpBVEFHQ0FUR1RDR0FHVEFUCj5iYzIwNDcKQ0FUQUdUQUNUQ0dBR1RBVAo+YmMyMDQ4ClRHQVRHQ1RBR1RHQUdUQVQKPmJjMjA0OQpUQUdUQ1RHQ0dUR0FHVEFUCj5iYzIwNTAKQ1RDQVRDVEFUQ0dBR1RBVAo+YmMyMDUxClRHQ0FUQUNUR0NHQUdUQVQKPmJjMjA1MgpDQUdBQ1RBR1RDR0FHVEFUCj5iYzIwNTMKQVRDR1RHQVRDVEdBR1RBVAo+YmMyMDU0CkNUR0NHQVRDQUNHQUdUQVQKPmJjMjA1NQpDVENBR0NBVEFDR0FHVEFUCj5iYzIwNTYKVENHQ0FHQ0dUQ0dBR1RBVAo+YmMyMDU3ClRBR0NBQ0dDQVRHQUdUQVQKPmJjMjA1OApUQUNUR0FDR0NUR0FHVEFUCj5iYzIwNTkKQVRDVEdBQ1RBVEdBR1RBVAo+YmMyMDYwCkFUQUNHQUdDVENHQUdUQVQKPmJjMjA2MQpDR0FHQ0FDR0NUR0FHVEFUCj5iYzIwNjIKVENUR0NHVEFUQ0dBR1RBVAo+YmMyMDYzClRDVEdDQVRDQVRHQUdUQVQKPmJjMjA2NApUR0NHVEdBVEdDR0FHVEFUCj5iYzIwNjUKVEdBR0NUQVRHQ0dBR1RBVAo+YmMyMDY2CkNUR1RDR1RBR1RHQUdUQVQKPmJjMjA2NwpBVENHQVRHQ0FUR0FHVEFUCj5iYzIwNjgKQUNUQUNHVEdBVEdBR1RBVAo+YmMyMDY5ClRDVEFUR0FDQVRHQUdUQVQKPmJjMjA3MApUQUNUR0NUQ0FDR0FHVEFUCj5iYzIwNzEKQ0dBR1RDVEFHQ0dBR1RBVAo+YmMyMDcyClRBVENBR1RBR1RHQUdUQVQKPmJjMjA3MwpBVENBQ1RBR1RDR0FHVEFUCj5iYzIwNzQKVEFUQ0FDR0FDVEdBR1RBVAo+YmMyMDc1CkNUQ0dUQ0FHQVRHQUdUQVQKPmJjMjA3NgpDQUdDQUdUR0FDR0FHVEFUCj5iYzIwNzcKVEdDR0FDR1RHQ0dBR1RBVAo+YmMyMDc4CkNUQ0FDVEdBR1RHQUdUQVQKPmJjMjA3OQpDQUNUR0FHQ0dUR0FHVEFUCj5iYzIwODAKQ0FHQ0dUQ1RBQ0dBR1RBVAo+YmMyMDgxCkNUQUNUQVRHVENHQUdUQVQKPmJjMjA4MgpBVEdUQUNBR0FDR0FHVEFUCj5iYzIwODMKQUNUQ0FUQ0FHVEdBR1RBVAo+YmMyMDg0CkNUR0FHQ0FDVENHQUdUQVQKPmJjMjA4NQpBVENBVENUQUNUR0FHVEFUCj5iYzIwODYKVEFDQVRHQ0dBVEdBR1RBVAo+YmMyMDg3ClRDR0NUR1RDQUNHQUdUQVQKPmJjMjA4OApBQ0dDVENBVEdDR0FHVEFUCj5iYzIwODkKVEFDVEFHQ0FHQ0dBR1RBVAo+YmMyMDkwCkNHVEFHQ0FHQVRHQUdUQVQKPmJjMjA5MQpDR1RHQ1RDR1RDR0FHVEFUCj5iYzIwOTIKQUNBR0NUR1RBQ0dBR1RBVAo+YmMyMDkzClRDR0FUR0NUQUNHQUdUQVQKPmJjMjA5NApUQUdBVEFDQUdDR0FHVEFUCj5iYzIwOTUKQ1RBQ1RDQVRBQ0dBR1RBVAo+YmMyMDk2CkFUR1RBQ1RBR1RHQUdUQVQK</pbmeta:BarcodesFasta>
+				</pbmeta:Secondary>
+				<pbmeta:UserDefinedFields>
+					<pbmeta:DataEntities CreatedAt="2023-11-08T13:14:24.619+00:00" ModifiedAt="0001-01-01T00:00:00" Name=" LIMS_IMPORT " SimpleValue="DefaultUserDefinedFieldLIMS" ValueDataType="String" xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" />
+				</pbmeta:UserDefinedFields>
+				<pbmeta:ComponentVersions>
+					<pbmeta:VersionInfo Name="ics" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="iui" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="chemistry" Version="11.0.1.159204" />
+					<pbmeta:VersionInfo Name="pa" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="paws" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="ppa" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="realtime" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="transfer" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="smrtimisc" Version="12.0.0.177059" />
+					<pbmeta:VersionInfo Name="smrttools" Version="12.0.0.177059" />
+					<pbmeta:VersionInfo Name="smrtlink-analysisservices-gui" Version="12.0.0.177059" />
+					<pbmeta:VersionInfo Name="smrtlink" Version="12.0.0.177059" />
+					<pbmeta:VersionInfo Name="smrtinub" Version="12.0.0.177059" />
+				</pbmeta:ComponentVersions>
+			</CollectionMetadata>
+		</Collections>
+	</pbds:DataSetMetadata>
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource CreatedAt="2023-11-09T11:30:19.807Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="m64241e_231108_132949.unbarcoded.hifi_reads.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-231109_113019807" UniqueId="debd3417-fb7d-43e9-a0c0-ea27306050e2" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-11-09T11:30:19.807Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="m64241e_231108_132949.unbarcoded.hifi_reads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-231109_113019807" UniqueId="7a2189ff-c510-4f9a-93dd-1d84962bf9f0" Version="3.0.1" />
+			</pbbase:FileIndices>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+</pbds:ConsensusReadSet>

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pbds:ConsensusReadSet CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.DataSet.ConsensusReadSet" Name="OrderPB009_BC97-144_pooled_plate2-Cell1 (CCS) (all samples)" Tags="ccs,barcoded" TimeStampedName="OrderPB009_BC97-144_pooled_plate2-Cell1 (CCS) (all samples)-230319_094325239" UniqueId="4a33e0ec-97d7-4978-a525-ef5eed6ee1a8" Version="3.0.1" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbdm="http://pacificbiosciences.com/PacBioDataModel.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbpn="http://pacificbiosciences.com/PacBioPartNumbers.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd">
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2001--bc2001/m64241e_230317_125722.hifi_reads.bc2001--bc2001.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325235" UniqueId="03f1cb2b-9466-42f6-a816-d5e75e8beb1e" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2001--bc2001/m64241e_230317_125722.hifi_reads.bc2001--bc2001.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325235" UniqueId="f7a7e2a4-5da5-444c-bb38-2b41845e599a" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2001--bc2001/m64241e_230317_125722.bc2001--bc2001.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325235" UniqueId="430e63ad-4803-49ae-ad14-bd92402af9fb" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2002--bc2002/m64241e_230317_125722.hifi_reads.bc2002--bc2002.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325235" UniqueId="d19541dc-dbc4-4e5a-b4fc-0b27e02c8004" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2002--bc2002/m64241e_230317_125722.hifi_reads.bc2002--bc2002.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325235" UniqueId="2391002e-973d-4cc7-899e-5df255fddc80" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2002--bc2002/m64241e_230317_125722.bc2002--bc2002.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325235" UniqueId="b23f3527-a302-4794-b9a1-78301b4caec4" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2003--bc2003/m64241e_230317_125722.hifi_reads.bc2003--bc2003.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325235" UniqueId="43259692-5fe2-4d42-87df-f0179f68ed8d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2003--bc2003/m64241e_230317_125722.hifi_reads.bc2003--bc2003.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="44cff615-a435-4a34-9f4d-dc7c13d9afc5" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.235Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2003--bc2003/m64241e_230317_125722.bc2003--bc2003.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325235" UniqueId="8ffe7aa6-2331-45fb-b681-566fad876b2c" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2004--bc2004/m64241e_230317_125722.hifi_reads.bc2004--bc2004.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="e26070de-3c23-43e9-a0f4-3a8adb837e7b" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2004--bc2004/m64241e_230317_125722.hifi_reads.bc2004--bc2004.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="4ea826e9-5d3a-4385-bf88-2ee5e651f1d8" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2004--bc2004/m64241e_230317_125722.bc2004--bc2004.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="7e8808cb-fb43-457b-a4b0-edb513a37ff3" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2005--bc2005/m64241e_230317_125722.hifi_reads.bc2005--bc2005.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="493f0960-8feb-479c-b741-ecec91938f17" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2005--bc2005/m64241e_230317_125722.hifi_reads.bc2005--bc2005.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="ac8513f9-5be3-4d8e-b027-91ece113223b" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2005--bc2005/m64241e_230317_125722.bc2005--bc2005.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="f57fe583-3428-4da5-9faf-e61d7647f1bc" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2006--bc2006/m64241e_230317_125722.hifi_reads.bc2006--bc2006.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="012fcd0d-9d38-4234-b5f7-d418d4747c15" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2006--bc2006/m64241e_230317_125722.hifi_reads.bc2006--bc2006.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="dbcc1701-facc-4da0-a2af-cade14f128a4" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2006--bc2006/m64241e_230317_125722.bc2006--bc2006.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="bc39f64f-1b2f-480d-b61f-0371d872d17c" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2007--bc2007/m64241e_230317_125722.hifi_reads.bc2007--bc2007.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="a4fc9f08-cea3-435e-9f0b-5e4f55f6ab94" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2007--bc2007/m64241e_230317_125722.hifi_reads.bc2007--bc2007.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="2eae6678-0915-4d19-ae89-fd026a10075e" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2007--bc2007/m64241e_230317_125722.bc2007--bc2007.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="46b4031a-72a1-45e9-91ef-173e320f25be" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2008--bc2008/m64241e_230317_125722.hifi_reads.bc2008--bc2008.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="374d4c6f-0d93-4893-83a9-381d3f072aa0" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2008--bc2008/m64241e_230317_125722.hifi_reads.bc2008--bc2008.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="b43be93f-18fb-49b7-afec-68fcd56d771e" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2008--bc2008/m64241e_230317_125722.bc2008--bc2008.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="77c3449b-2bb3-452d-a499-dea32c1877cc" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2009--bc2009/m64241e_230317_125722.hifi_reads.bc2009--bc2009.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="f39ac166-32b7-4754-9fad-805524b53780" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2009--bc2009/m64241e_230317_125722.hifi_reads.bc2009--bc2009.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="01e7c685-6af9-451d-8065-dd4ca2af068c" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2009--bc2009/m64241e_230317_125722.bc2009--bc2009.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="46a05f7b-0b46-4eaa-8384-0ca6de1e502c" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2010--bc2010/m64241e_230317_125722.hifi_reads.bc2010--bc2010.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="379dda0a-7975-495b-bc2f-f7b2761c64d4" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2010--bc2010/m64241e_230317_125722.hifi_reads.bc2010--bc2010.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="d25099e7-3703-4808-bdb0-a44589a90f7e" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2010--bc2010/m64241e_230317_125722.bc2010--bc2010.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="9be224c3-8c4e-4906-b223-211777b6fe32" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2011--bc2011/m64241e_230317_125722.hifi_reads.bc2011--bc2011.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="005d8041-b6dc-408d-b8ab-b92788e1160a" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2011--bc2011/m64241e_230317_125722.hifi_reads.bc2011--bc2011.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="ec0d45d7-9db1-4cd6-9932-07f1501f39a3" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2011--bc2011/m64241e_230317_125722.bc2011--bc2011.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="4280f1ab-cb10-4039-9443-3c00deb6a477" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2012--bc2012/m64241e_230317_125722.hifi_reads.bc2012--bc2012.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="ed509a75-1447-4f45-b6a4-8d8a1a6bb1d8" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2012--bc2012/m64241e_230317_125722.hifi_reads.bc2012--bc2012.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="4e3b9d2b-d487-46aa-9b8a-f74092b40128" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2012--bc2012/m64241e_230317_125722.bc2012--bc2012.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="ee7c8354-d57f-423e-9bf2-07d0c33e0b18" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2013--bc2013/m64241e_230317_125722.hifi_reads.bc2013--bc2013.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="cc1bd05d-20b4-4e65-99a0-1ac7b5ec45a5" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2013--bc2013/m64241e_230317_125722.hifi_reads.bc2013--bc2013.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="a3706ab3-a50b-407f-90ad-19c0de4a9c64" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2013--bc2013/m64241e_230317_125722.bc2013--bc2013.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="a316f0bf-aa33-4759-9279-4cbc8a14e8ed" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2014--bc2014/m64241e_230317_125722.hifi_reads.bc2014--bc2014.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="aff5ca22-642d-4f4f-b987-c6b60c301525" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2014--bc2014/m64241e_230317_125722.hifi_reads.bc2014--bc2014.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="4704fe1f-4635-49cd-9bf8-f283283d3c96" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2014--bc2014/m64241e_230317_125722.bc2014--bc2014.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="a28c3d30-2452-4ff9-837b-9af8345c6322" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2015--bc2015/m64241e_230317_125722.hifi_reads.bc2015--bc2015.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="ead31dee-6ab6-4380-929c-6fda3f7bf150" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2015--bc2015/m64241e_230317_125722.hifi_reads.bc2015--bc2015.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="8b77ee13-3e5f-42de-91ec-97620aeef2b7" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2015--bc2015/m64241e_230317_125722.bc2015--bc2015.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="8d5dfe31-2d67-4cd3-a99f-1edb2f2ebd76" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2016--bc2016/m64241e_230317_125722.hifi_reads.bc2016--bc2016.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="a4c34104-5013-4004-8e5a-043f207b7858" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2016--bc2016/m64241e_230317_125722.hifi_reads.bc2016--bc2016.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="768021ac-7a84-4ee9-92d2-a3369d5878d5" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2016--bc2016/m64241e_230317_125722.bc2016--bc2016.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="005d964a-1252-4c13-94ce-870af5c6b219" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2017--bc2017/m64241e_230317_125722.hifi_reads.bc2017--bc2017.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="1490a43e-13fc-41d9-a6a5-68d1c5648f3a" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2017--bc2017/m64241e_230317_125722.hifi_reads.bc2017--bc2017.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="8b019ce2-8af4-423f-a19b-986dc5fde6be" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2017--bc2017/m64241e_230317_125722.bc2017--bc2017.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="e66fb6f8-007f-47bf-afda-f2f598ff333b" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2018--bc2018/m64241e_230317_125722.hifi_reads.bc2018--bc2018.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="db33f7de-7962-4c51-b3c4-859bcc1cdcf4" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2018--bc2018/m64241e_230317_125722.hifi_reads.bc2018--bc2018.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="fed3e1ee-0afb-4204-962f-262e7d45557a" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2018--bc2018/m64241e_230317_125722.bc2018--bc2018.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="23a18a3a-492e-488c-8cfa-b45a2e565b22" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2019--bc2019/m64241e_230317_125722.hifi_reads.bc2019--bc2019.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="f1429c79-0a0b-4b9f-b8a8-0507f601652d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2019--bc2019/m64241e_230317_125722.hifi_reads.bc2019--bc2019.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="0d676903-5723-44b6-ada4-a88556ee1b51" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2019--bc2019/m64241e_230317_125722.bc2019--bc2019.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="73bf32d8-2ac7-4a70-80f0-fd4bdb73abe7" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2020--bc2020/m64241e_230317_125722.hifi_reads.bc2020--bc2020.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="ba8bb13f-482b-4c38-8841-8c95be2221a3" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2020--bc2020/m64241e_230317_125722.hifi_reads.bc2020--bc2020.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="8d5c4133-19fe-4b48-bff3-0fa9f01a964d" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2020--bc2020/m64241e_230317_125722.bc2020--bc2020.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="6924181d-fadf-4635-9f92-f9bae8772acf" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2021--bc2021/m64241e_230317_125722.hifi_reads.bc2021--bc2021.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="791ccf90-31f6-44f3-8ebb-de0d626ac27c" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2021--bc2021/m64241e_230317_125722.hifi_reads.bc2021--bc2021.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="f1d73b15-a584-4483-8463-001ec8d835b8" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2021--bc2021/m64241e_230317_125722.bc2021--bc2021.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="d60a73b8-60d0-484b-849b-3822a3426957" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2022--bc2022/m64241e_230317_125722.hifi_reads.bc2022--bc2022.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="f3ce1ae9-9fc7-4c80-baeb-583824baea42" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2022--bc2022/m64241e_230317_125722.hifi_reads.bc2022--bc2022.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="ea8a5d46-3c4c-4527-9be0-dd3498de47a1" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2022--bc2022/m64241e_230317_125722.bc2022--bc2022.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="eeafa49d-cab6-462b-bc83-1991fed00d4d" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2023--bc2023/m64241e_230317_125722.hifi_reads.bc2023--bc2023.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="dfe21f57-6b92-4acb-ba94-6034ecc6fd37" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2023--bc2023/m64241e_230317_125722.hifi_reads.bc2023--bc2023.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="0020e031-78e1-4692-952d-02fd02e4b890" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2023--bc2023/m64241e_230317_125722.bc2023--bc2023.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="99d871a9-cd86-44e8-be82-062d9064a191" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2024--bc2024/m64241e_230317_125722.hifi_reads.bc2024--bc2024.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="af8452e5-99df-4dc3-8dc4-3b6d4c37f24d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2024--bc2024/m64241e_230317_125722.hifi_reads.bc2024--bc2024.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="1904c3ae-3562-44ee-b63d-4ccfb577f253" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2024--bc2024/m64241e_230317_125722.bc2024--bc2024.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="b7f98aaa-02fd-4ea3-ba42-cc03e5b3f2d7" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2025--bc2025/m64241e_230317_125722.hifi_reads.bc2025--bc2025.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="36d6da41-5261-4e9a-9a00-5d20a562192f" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2025--bc2025/m64241e_230317_125722.hifi_reads.bc2025--bc2025.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="1021deef-c8af-46ad-ad76-5036cc9aeb27" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2025--bc2025/m64241e_230317_125722.bc2025--bc2025.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="a321ca0d-f8c6-43df-9441-f45531559696" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2026--bc2026/m64241e_230317_125722.hifi_reads.bc2026--bc2026.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="96b9737e-9510-4c4c-b114-7dada0160936" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2026--bc2026/m64241e_230317_125722.hifi_reads.bc2026--bc2026.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="926853c7-2ac8-4ebe-8aa8-ba8c361d4094" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2026--bc2026/m64241e_230317_125722.bc2026--bc2026.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="36bfe7f0-d1a6-4ebb-9663-072d1fd776e4" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2027--bc2027/m64241e_230317_125722.hifi_reads.bc2027--bc2027.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="f1a6a5ff-afff-451c-93c8-9a6398e621a0" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2027--bc2027/m64241e_230317_125722.hifi_reads.bc2027--bc2027.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="390eee93-d137-4d98-a726-0118dab7fc6c" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2027--bc2027/m64241e_230317_125722.bc2027--bc2027.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="b8d506b1-9fbf-4266-894f-f3250ca8efd1" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2028--bc2028/m64241e_230317_125722.hifi_reads.bc2028--bc2028.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="aa28cbca-de3c-4752-847f-f26183391bdf" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2028--bc2028/m64241e_230317_125722.hifi_reads.bc2028--bc2028.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="52a624b6-d4d8-4096-b7f7-83f010890abd" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2028--bc2028/m64241e_230317_125722.bc2028--bc2028.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="df0d0421-fa0e-470d-87d9-41144b5f537d" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2029--bc2029/m64241e_230317_125722.hifi_reads.bc2029--bc2029.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="d5e19fe0-2cf8-46c9-9a29-f31dbf75517d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2029--bc2029/m64241e_230317_125722.hifi_reads.bc2029--bc2029.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="7856721a-5aab-4cae-82ff-023113f9b75f" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2029--bc2029/m64241e_230317_125722.bc2029--bc2029.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="768e2147-51a1-4e1b-9549-7240d14c9da6" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2030--bc2030/m64241e_230317_125722.hifi_reads.bc2030--bc2030.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="878e44b3-2fe3-4a3a-a7a8-692c3c405bbf" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2030--bc2030/m64241e_230317_125722.hifi_reads.bc2030--bc2030.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="8f642fbc-2986-40de-9b3e-49990d3a3f5c" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2030--bc2030/m64241e_230317_125722.bc2030--bc2030.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="2d392f41-3385-41da-bb92-68dd06047595" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2031--bc2031/m64241e_230317_125722.hifi_reads.bc2031--bc2031.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="03f6a6b2-c8f2-490b-a544-fa34c244cf5d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2031--bc2031/m64241e_230317_125722.hifi_reads.bc2031--bc2031.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="9a7b0f44-96a6-4355-8cfa-e65cb055906d" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2031--bc2031/m64241e_230317_125722.bc2031--bc2031.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="493fa017-14d7-41cf-90cd-e27df6c4d06a" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2032--bc2032/m64241e_230317_125722.hifi_reads.bc2032--bc2032.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325236" UniqueId="6619897d-07fc-4761-b883-316cda02a85c" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2032--bc2032/m64241e_230317_125722.hifi_reads.bc2032--bc2032.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325236" UniqueId="cafdb9d9-fa42-481f-a416-391536ccfa5d" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.236Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2032--bc2032/m64241e_230317_125722.bc2032--bc2032.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325236" UniqueId="bd8cff33-9b57-4b1f-bd41-abb2736d14e8" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2033--bc2033/m64241e_230317_125722.hifi_reads.bc2033--bc2033.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="2841420a-b728-41e7-95c4-b0b67c7aff7e" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2033--bc2033/m64241e_230317_125722.hifi_reads.bc2033--bc2033.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="446066d0-8e5d-49a1-a006-16f81985abc1" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2033--bc2033/m64241e_230317_125722.bc2033--bc2033.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="99fee347-9475-4809-a303-4723717962e0" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2034--bc2034/m64241e_230317_125722.hifi_reads.bc2034--bc2034.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="c37f0784-a465-40a6-b623-0825c697b8ab" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2034--bc2034/m64241e_230317_125722.hifi_reads.bc2034--bc2034.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="c36094b0-ebb4-4140-9ab3-cf7f6b7252a2" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2034--bc2034/m64241e_230317_125722.bc2034--bc2034.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="7635cc21-102e-487f-bfb8-8c489f4ceaee" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2035--bc2035/m64241e_230317_125722.hifi_reads.bc2035--bc2035.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="d8feb0ba-e802-47ee-ab3e-7987e643b24c" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2035--bc2035/m64241e_230317_125722.hifi_reads.bc2035--bc2035.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="b309e306-186d-44dd-8aa9-e41aa921902d" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2035--bc2035/m64241e_230317_125722.bc2035--bc2035.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="b95cb890-535d-47c6-ac5f-75e9e9dd2406" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2036--bc2036/m64241e_230317_125722.hifi_reads.bc2036--bc2036.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="f0b74d1d-b6fb-41ac-b050-559e7c84c448" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2036--bc2036/m64241e_230317_125722.hifi_reads.bc2036--bc2036.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="c243ed1a-1982-435c-ac90-dc3c50d12f52" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2036--bc2036/m64241e_230317_125722.bc2036--bc2036.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="61d4d487-47ac-4ce5-a77d-f75b1afbe557" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2037--bc2037/m64241e_230317_125722.hifi_reads.bc2037--bc2037.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="497ce660-2951-4569-9bb6-8f83c0cdec26" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2037--bc2037/m64241e_230317_125722.hifi_reads.bc2037--bc2037.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="afbdcf77-47a7-45ce-b2e2-6203332b75e6" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2037--bc2037/m64241e_230317_125722.bc2037--bc2037.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="0de37e40-5ce1-44b6-8818-cd0d3ce6ee0c" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2038--bc2038/m64241e_230317_125722.hifi_reads.bc2038--bc2038.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="30646e0a-5d27-452f-826c-75953e34118b" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2038--bc2038/m64241e_230317_125722.hifi_reads.bc2038--bc2038.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="9c0b7524-c672-4056-9cf2-109ab99c65da" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2038--bc2038/m64241e_230317_125722.bc2038--bc2038.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="679b6d3f-508c-434d-a796-e983f3571604" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2039--bc2039/m64241e_230317_125722.hifi_reads.bc2039--bc2039.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="6992fb34-2dd2-4e0b-a516-6728d88a2d0d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2039--bc2039/m64241e_230317_125722.hifi_reads.bc2039--bc2039.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="a0128ef2-a589-4c5d-8c93-386dff76bec5" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2039--bc2039/m64241e_230317_125722.bc2039--bc2039.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="6499f0b5-735a-4b1e-a06f-20b5b1056a74" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2040--bc2040/m64241e_230317_125722.hifi_reads.bc2040--bc2040.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="a64471fd-031f-4099-be68-8be69180b79b" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2040--bc2040/m64241e_230317_125722.hifi_reads.bc2040--bc2040.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="4f28085e-e8a6-4a1c-a8e2-edd4ee893d3b" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2040--bc2040/m64241e_230317_125722.bc2040--bc2040.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="c993e7c0-e41a-427d-b6e3-4c9d139c1cd3" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2041--bc2041/m64241e_230317_125722.hifi_reads.bc2041--bc2041.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="532c8c76-418a-4dd1-a045-e49a983b2020" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2041--bc2041/m64241e_230317_125722.hifi_reads.bc2041--bc2041.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="6b7cb890-9496-4627-bd59-2406bd55932f" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2041--bc2041/m64241e_230317_125722.bc2041--bc2041.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="3216b892-b0e5-4aa9-91b6-b24c578e1f30" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2042--bc2042/m64241e_230317_125722.hifi_reads.bc2042--bc2042.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="198fcbf2-385c-4a0d-ac76-41e8c12d378a" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2042--bc2042/m64241e_230317_125722.hifi_reads.bc2042--bc2042.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="e52c0a35-f8c9-4501-a710-6109171d77b4" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2042--bc2042/m64241e_230317_125722.bc2042--bc2042.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="701e9847-6102-46b8-844a-22ba02ab3ff7" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2043--bc2043/m64241e_230317_125722.hifi_reads.bc2043--bc2043.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="1c95aa7a-6ba2-4394-8f30-ddb4ea21450d" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2043--bc2043/m64241e_230317_125722.hifi_reads.bc2043--bc2043.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="d9acb8b0-6864-4a9a-9a49-7249cd68f7d5" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2043--bc2043/m64241e_230317_125722.bc2043--bc2043.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="ebdc15ab-c8bb-43ee-bebf-4b0c53bb8e3a" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2044--bc2044/m64241e_230317_125722.hifi_reads.bc2044--bc2044.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="3d1a34f6-e1a7-47d7-8cd8-d577747dd41c" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2044--bc2044/m64241e_230317_125722.hifi_reads.bc2044--bc2044.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="530a241a-c3a0-4577-bff2-94845fd8af04" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2044--bc2044/m64241e_230317_125722.bc2044--bc2044.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="61a5bc9b-28eb-4317-9db2-5bb75a5a5f7e" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2045--bc2045/m64241e_230317_125722.hifi_reads.bc2045--bc2045.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="95a1cb77-2ac2-4ed3-97d0-9ea160586279" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2045--bc2045/m64241e_230317_125722.hifi_reads.bc2045--bc2045.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="6c88cce7-2f1a-499c-83d6-b41abdc65493" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2045--bc2045/m64241e_230317_125722.bc2045--bc2045.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="1c067565-12db-4ff6-af6c-5f29fe224f33" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2046--bc2046/m64241e_230317_125722.hifi_reads.bc2046--bc2046.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="d953d774-6e2d-4ba4-a70e-e2a5eeb5660c" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2046--bc2046/m64241e_230317_125722.hifi_reads.bc2046--bc2046.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="e86dbb44-a12a-4a1a-bb30-cdb71e8039f3" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2046--bc2046/m64241e_230317_125722.bc2046--bc2046.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="f5e9e2f1-fe7c-43a8-a46b-2605cf13cefc" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2047--bc2047/m64241e_230317_125722.hifi_reads.bc2047--bc2047.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="703b684d-af5f-4878-9151-91a58a1bb66b" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2047--bc2047/m64241e_230317_125722.hifi_reads.bc2047--bc2047.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="585b9203-c88c-45aa-9651-ab93f4c59e33" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2047--bc2047/m64241e_230317_125722.bc2047--bc2047.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="755d761d-ef0b-4045-929d-a3a05377d4e1" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="bc2048--bc2048/m64241e_230317_125722.hifi_reads.bc2048--bc2048.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325237" UniqueId="b7d527a7-5385-4e0e-bd92-254d477baf86" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="bc2048--bc2048/m64241e_230317_125722.hifi_reads.bc2048--bc2048.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325237" UniqueId="c4832b77-8da6-46f0-8aca-91b3aa6fd94f" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="bc2048--bc2048/m64241e_230317_125722.bc2048--bc2048.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325237" UniqueId="92dbdaa4-703d-4668-a98e-52636265316f" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+	<pbbase:SupplementalResources>
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" Description="Points to the barcodes.fasta file." MetaType="PacBio.BarcodeFile.BarcodeFastaFile" Name="Barcodes FASTA" ResourceId="m64241e_230317_125722.barcodes.fasta" TimeStampedName="pacbio_barcodefile_barcodefastafile-230319_094325237" UniqueId="43dba7a7-3c02-461d-a048-68642a3d0b5d" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.FileTypes.txt" ResourceId="m64241e_230317_125722.lima_guess.txt" TimeStampedName="pacbio_filetypes_txt-230319_094325237" UniqueId="a968a299-9e10-41e2-8825-a9d6a4f65ba2" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.FileTypes.JsonReport" ResourceId="m64241e_230317_125722.lima_guess.json" TimeStampedName="pacbio_filetypes_jsonreport-230319_094325237" UniqueId="ccd046a7-bffb-4113-833c-e803ea17b0fd" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.FileTypes.txt" ResourceId="m64241e_230317_125722.lima_counts.txt" TimeStampedName="pacbio_filetypes_txt-230319_094325237" UniqueId="91f7a5ae-4e26-48a4-bb46-440ab816ec5b" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.FileTypes.txt" ResourceId="m64241e_230317_125722.lima_report.txt" TimeStampedName="pacbio_filetypes_txt-230319_094325237" UniqueId="78380e38-744b-48da-a50c-0d9283e66715" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.FileTypes.txt" ResourceId="m64241e_230317_125722.lima_summary.txt" TimeStampedName="pacbio_filetypes_txt-230319_094325237" UniqueId="e89e6d1a-89a6-452e-bf0c-ac16e1adb8e6" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.237Z" MetaType="PacBio.FileTypes.txt" ResourceId="m64241e_230317_125722.lima.log" TimeStampedName="pacbio_filetypes_txt-230319_094325237" UniqueId="8288ae0d-c947-421c-85ec-77d292be9035" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:39:46.811Z" MetaType="PacBio.FileTypes.json" ResourceId="m64241e_230317_125722.zmw_metrics.json.gz" TimeStampedName="pacbio_filetypes_json-230319_093946811" UniqueId="5329a5d0-f2b0-4cbb-80b4-240561bba4f9" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:39:46.811Z" MetaType="PacBio.FileTypes.JsonReport" ResourceId="m64241e_230317_125722.ccs_reports.json" TimeStampedName="pacbio_filetypes_jsonreport-230319_093946811" UniqueId="e6ceff55-16ef-45b9-aed7-90d35d807ccb" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:39:46.811Z" MetaType="PacBio.FileTypes.log" ResourceId="m64241e_230317_125722.ccs.log" TimeStampedName="pacbio_filetypes_log-230319_093946811" UniqueId="7dd6da78-9000-4d88-9b21-ea6f7eb6839d" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:39:46.811Z" MetaType="PacBio.FileTypes.txt" ResourceId="m64241e_230317_125722.ccs_reports.txt" TimeStampedName="pacbio_filetypes_txt-230319_093946811" UniqueId="0bec23e8-463e-4d7e-b613-944a12129dbc" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:39:46.811Z" MetaType="PacBio.SubreadFile.ChipStatsFile" ResourceId="m64241e_230317_125722.sts.xml" TimeStampedName="pacbio_subreadfile_chipstatsfile-230319_093946811" UniqueId="08a2a8a2-1be8-4e1a-ae32-05963e1f2323" Version="3.0.1" />
+		<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.238Z" Description="Points to the BAM with unbarcoded reads." MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" Name="Unbarcoded BAM" ResourceId="m64241e_230317_125722.unbarcoded.hifi_reads.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-230319_094325238" UniqueId="54a7670f-1600-4541-8240-834815d8a69e" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2023-03-19T09:43:25.238Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="m64241e_230317_125722.unbarcoded.hifi_reads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-230319_094325238" UniqueId="6bcac93e-c680-424b-98ac-0599f46bfb3e" Version="3.0.1" />
+			</pbbase:FileIndices>
+			<pbbase:ExternalResources>
+				<pbbase:ExternalResource CreatedAt="2023-03-19T09:43:25.238Z" MetaType="PacBio.DataSet.ConsensusReadSet" ResourceId="m64241e_230317_125722.unbarcoded.consensusreadset.xml" TimeStampedName="pacbio_dataset_consensusreadset-230319_094325238" UniqueId="bae221f2-36e4-43c3-af0d-7b285b1aaf0c" Version="3.0.1" />
+			</pbbase:ExternalResources>
+		</pbbase:ExternalResource>
+	</pbbase:SupplementalResources>
+	<pbds:DataSetMetadata>
+		<pbds:TotalLength>15982849989</pbds:TotalLength>
+		<pbds:NumRecords>1948181</pbds:NumRecords>
+		<Collections xmlns="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd">
+			<CollectionMetadata Context="m64241e_230317_125722" CreatedAt="2023-03-17T12:30:37.702Z" InstrumentId="64241e" InstrumentName="RapunzlSequel2e" MetaType="CollectionMetadata" ModifiedAt="0001-01-01T00:00:00" Status="Ready" TimeStampedName="64241e-CollectionMetadata-2023-42-17T12:42:40.187Z" UniqueId="12fc638c-4cb5-4fd0-862f-5181f173ec4d">
+				<pbmeta:MultiJobId>0</pbmeta:MultiJobId>
+				<pbmeta:ConsensusReadSetRef UniqueId="4a33e0ec-97d7-4978-a525-ef5eed6ee1a8" />
+				<pbmeta:RunDetails>
+					<pbmeta:TimeStampedName>r64241e_20230317_124240</pbmeta:TimeStampedName>
+					<pbmeta:Name>Run20230317OrderPB009_PB010_PB017</pbmeta:Name>
+					<pbmeta:CreatedBy>admin</pbmeta:CreatedBy>
+					<pbmeta:WhenCreated>2023-03-17T12:30:37.702Z</pbmeta:WhenCreated>
+					<pbmeta:StartedBy>unknown</pbmeta:StartedBy>
+					<pbmeta:WhenStarted>0001-01-01T00:00:00</pbmeta:WhenStarted>
+				</pbmeta:RunDetails>
+				<pbmeta:WellSample CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="OrderPB009_BC97-144_pooled_plate2">
+					<pbmeta:WellName>A01</pbmeta:WellName>
+					<pbmeta:Application>microbialAssembly</pbmeta:Application>
+					<pbmeta:Concentration>0</pbmeta:Concentration>
+					<pbmeta:OnPlateLoadingConcentration>110</pbmeta:OnPlateLoadingConcentration>
+					<pbmeta:InsertSize>9000</pbmeta:InsertSize>
+					<pbmeta:IsoSeq>false</pbmeta:IsoSeq>
+					<pbmeta:IsCCS>false</pbmeta:IsCCS>
+					<pbmeta:AutoAnalysisEnabled>false</pbmeta:AutoAnalysisEnabled>
+					<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+					<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+					<pbmeta:UseCount>0</pbmeta:UseCount>
+					<pbmeta:DNAControlComplex>Sequel® II DNA Internal Control 1.0</pbmeta:DNAControlComplex>
+					<pbmeta:SampleSetupId>5d9485c8-9dee-637b-886e-39d9dd9d8291</pbmeta:SampleSetupId>
+					<pbsample:BioSamples>
+						<pbsample:BioSample Name="P2W_1A_id1029&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2001--bc2001" UniqueId="4b7859ca-3541-433d-8c06-5e3bae40a6a6" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1B_id1034&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2002--bc2002" UniqueId="bd6c839b-4391-470f-9670-61c51bf3eb61" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1C_id1044&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2003--bc2003" UniqueId="106096a9-1287-4d9b-b522-9769ad6504c9" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1D_id1047&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2004--bc2004" UniqueId="e7b4b744-bda4-4877-a2c5-373ffb48c066" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1E_id1100&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2005--bc2005" UniqueId="2bfe95dd-68f3-4078-aca0-651be2b72c8b" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1F_id1141&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2006--bc2006" UniqueId="dddcaf67-0cc4-4e09-b22d-f405f87986a9" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1G_id1144&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2007--bc2007" UniqueId="a341de12-966f-47bd-8298-e2dc6bb5d242" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_1H_id1158&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2008--bc2008" UniqueId="6fe94e3f-a688-430d-b663-56507d9674ea" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2A_id1172&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2009--bc2009" UniqueId="e1f166b4-3036-4efe-a562-d67279b6c241" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2B_id1177&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2010--bc2010" UniqueId="fab3f963-02cb-43cd-bbde-ce9e3f7319d8" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2C_id1187&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2011--bc2011" UniqueId="567cae4d-109b-4f71-9b43-ba30208974c0" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2D_id1194&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2012--bc2012" UniqueId="61236ce6-7468-408f-9d0d-2e5477941727" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2E_id1203&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2013--bc2013" UniqueId="b4b7f8ef-4cd3-4520-b5df-a802af595c4e" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2F_id1219&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2014--bc2014" UniqueId="09414a1c-de96-454a-b2e8-c6a0478f7653" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2G_id1233&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2015--bc2015" UniqueId="bca760d5-497d-470c-8085-3e81736cc5b6" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_2H_id1264&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2016--bc2016" UniqueId="5f80668a-6992-4846-8789-4a37ba307d31" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3A_id1265&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2017--bc2017" UniqueId="1c4e58ee-2154-4191-baf8-83f3604b8a25" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3B_id1266&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2018--bc2018" UniqueId="fc4df88d-0f6c-4258-ad4a-01e98d26df12" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3C_id1267&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2019--bc2019" UniqueId="94134f29-1c90-4c51-818c-b283284b3b61" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3D_id1326&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2020--bc2020" UniqueId="e102bd37-03ea-430f-8d0e-6ae0389a7e57" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3E_id1328&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2021--bc2021" UniqueId="1b4eb2b8-386b-42ca-ab8d-b452422cc86c" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3F_id1338&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2022--bc2022" UniqueId="2a5a63d7-a548-40e9-b751-0536531d6f37" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3G_id1341&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2023--bc2023" UniqueId="d5960cd3-e40d-4b8e-9f1d-4b22754cddd4" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_3H_id1354&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2024--bc2024" UniqueId="cc5fe392-a945-44fa-948d-b3bdb7bc277f" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4A_id1382&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2025--bc2025" UniqueId="98a89dda-2ba2-466a-8efd-9cfbc1ee4778" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4B_id1457&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2026--bc2026" UniqueId="3c382a37-a67a-4260-ab49-792f98e7822e" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4C_id1499&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2027--bc2027" UniqueId="3138fe5d-44eb-4612-891c-c1428d63c898" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4D_id1502&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2028--bc2028" UniqueId="d114640d-adf0-47cf-8748-9127726bb6e6" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4E_id1509&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2029--bc2029" UniqueId="878c6831-8323-4db5-9806-a9c8e22a78b2" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4F_id1532&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2030--bc2030" UniqueId="635d01bf-a9dd-4531-bc78-b44822d3602f" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4G_id1620&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2031--bc2031" UniqueId="247f8a71-6bfb-4a46-9bd2-27c4d5fb85ef" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_4H_id1637&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2032--bc2032" UniqueId="ca64deea-4fff-4bb8-b135-54dac2b0ccaf" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5A_id1663&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2033--bc2033" UniqueId="167ab259-2e06-4c2d-bdbf-d0ab6b7753ef" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5B_id1668&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2034--bc2034" UniqueId="9b2bfd67-7506-4bdf-8178-3715cc793b7b" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5C_id1672&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2035--bc2035" UniqueId="007f0e56-05ad-41fc-b6ba-57e226303e04" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5D_id1673&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2036--bc2036" UniqueId="26210bc0-9157-41e7-8b73-df6a3652ccf5" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5E_id1681&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2037--bc2037" UniqueId="1114a72f-f268-4570-8fe7-0baa78a04d16" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5F_id1682&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2038--bc2038" UniqueId="4c5efeef-8c59-46d1-b190-9975ea6960a9" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5G_id1685&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2039--bc2039" UniqueId="c2d9cd09-be5d-476e-8563-bd05011109a6" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_5H_id1698&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2040--bc2040" UniqueId="10778475-0b2d-4d54-8d2c-3740aa278f64" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6A_id1699&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2041--bc2041" UniqueId="8c03a5ed-dccb-4014-b81d-172da6d7629e" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6B_id1709&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2042--bc2042" UniqueId="1c7b42fe-089d-4aab-9ac1-b52de173d3a0" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6C_id1712&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2043--bc2043" UniqueId="c2bc4e37-c0de-479d-9630-029449989a92" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6D_id1718&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2044--bc2044" UniqueId="55406ee4-b41c-4cc9-aefc-501f4a96fc1c" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6E_id1722&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2045--bc2045" UniqueId="5d75b691-73e6-450d-a025-abe8b0d32dd8" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6F_id1735&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2046--bc2046" UniqueId="5a22a7cf-67b0-410c-b490-6c0f0f75cdd4" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6G_id1744&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2047--bc2047" UniqueId="7f7e3638-c078-4f11-a92b-771ab367653f" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="P2W_6H_id1748&#13;">
+							<pbsample:DNABarcodes>
+								<pbsample:DNABarcode Name="bc2048--bc2048" UniqueId="07236527-916d-4935-a00c-1a4898645f22" />
+							</pbsample:DNABarcodes>
+						</pbsample:BioSample>
+					</pbsample:BioSamples>
+				</pbmeta:WellSample>
+				<pbmeta:Automation Name="Diffusion">
+					<pbbase:AutomationParameters xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="ReuseSample" SimpleValue="False" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingCognate" SimpleValue="True" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingTarget" SimpleValue="0.85" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingMaxImmobilization" SimpleValue="120" ValueDataType="Int32" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="ReuseCell" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="ImmobilizationTime" SimpleValue="120" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="ExtendFirst" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="ExtensionTime" SimpleValue="120" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="MovieLength" SimpleValue="1800" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PCDinPlate" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter Name="UsePredictiveLoadingBuffer" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter Name="CollectionNumber" SimpleValue="0" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="InsertSize" SimpleValue="9000" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="BindingKitPartNumber" SimpleValue="101-894-200" ValueDataType="String" />
+						<pbbase:AutomationParameter Name="PPAEstimatedDuration" SimpleValue="660" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPAMinDuration" SimpleValue="450.21" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPAMaxDuration" SimpleValue="869.79" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPATimeout" SimpleValue="3630" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="CCSOverheadDurationMinutesPerUmyGBase" SimpleValue="0.9" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="TipSearchMaxDuration" SimpleValue="576" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="SNRCut" SimpleValue="1.5" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="HQRFMethod" SimpleValue="N2" ValueDataType="String" />
+					</pbbase:AutomationParameters>
+				</pbmeta:Automation>
+				<pbmeta:CollectionNumber>0</pbmeta:CollectionNumber>
+				<pbmeta:CellIndex>0</pbmeta:CellIndex>
+				<pbmeta:SetNumber>0</pbmeta:SetNumber>
+				<pbmeta:CellPac Barcode="DA235701" Description="Individual 4 Pack containing 4 SMRT®Cells each containing 7.76 million ZMWs" ExpirationDate="2023-10-22" LotNumber="419823" MovieTimeGrade="LR" Name="Sequel® II SMRT® Cell 8M (4/tray)" PartNumber="101-389-001" Version="1.0">
+					<pbmeta:ChipLayout xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">Spider_1p0_NTO</pbmeta:ChipLayout>
+				</pbmeta:CellPac>
+				<pbmeta:ControlKit Barcode="Lxxxxx101717600123199" ChipType="8mChip" Description="The Sequel Dev DNA Internal Control 1.0 contains a fixed template of 2 kb length bound to Sequel Dev Binding Kit 1.0 for use as an internal sequencing control. Reagent quantities provide spike-in controls for a minimum of 24 samples." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II DNA Internal Control 1.0" PartNumber="101-717-600" Tags="Control Kit, CCK" Version="1.0">
+					<pbmeta:CustomSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">&gt;left_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;right_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;custom_sequence\nTGTCTAGGTCATCTCAACGTAGCTTTGACATATAACTTATCTAAAGTAATCCCTGCACACCTGTATGCATTATGCTTGCTATACACGCGGACACAGGCATATCATTTATTTTTTGCCATGTCCATTAATTGTTCAATAATTTTACTCACGGTATTTAATTTGATGTTGTGTTATATAGAATTGGAATTAAACTTATAAGGATGCTTAGACGTTGCATTATAAAAGTTTATGTACTAAGTATTTAAGACATTGGCATATGATTATAGCTTGACATTATTAAAAATTAATTAATTAAATCTCACACAATACTTATTCAAGACATTTTTACTAAGATAACCAAAGGAATGCGAACAAAATAATACTTAAAATATAAGACTTAGAAGTAATATGATCCAATAGTTACATATAGTACACTAAGTTCCTAAATTATATAACTTTAAAACAAAGTTACGAAATTTGGAAATAATTTTATTTAATCATATTTTCATAATAATGAAATACTGTTTATTTCAGTGGCGAAAAGAGATAATACGATTTTATAGTGATAGAATATCCTTGAAATATCTAAAGATAAAATTAGAAACTTTCTCTTTTCGCTGTAAAGCTATATGACTTAAAAATAACTTATACGCAAAGTATATTGCAGTGGAAACCCAAGAGTATAGTAGCCATGTAATCTCGGGTTCGAAACTACACGCCGCGCACGTAGTCAGATGGTCTGAAACTTGTCTGGGGCTGTTTGTTGACGGATGGAGACTTCACTAAGTGGCGTCAGGCGATGCGCACACACGGGACTCAATCCCGTAGCATGTTATGTGTCGTTCGAAACTCGTGCGTTCGAGATTTACGCCACATTGCCGGCTGGTCCAAGGACGTTATCTACCAGATGATACGGTCCAATTCGTAAGTTTGACTCACATAGTCGCGAACCGCGGAGCTGGAGAACAATAATTACCGGATGATTAGTTGACCATACGCACTATCATGCTCCGTGACTCAGTTTCCGCCATGGAGTTCTCACAGCCCCGTGTGTACCATAACTGCAGTAAGTAAGGACCTTGTTCGGAGGCCGACTCGTATTTCATATGATCTTAGTCTCGCCACCTTATCGCACGAATTGGGGGTGTCTTTTAGCCGACTCCGGCACGATCCGCCGGGAAGTTACTCGACCAGTTGCGGGACGCCCTAGTATGTTCGTATTACGTTCGATGCGTAAGCACCCCAGAGATTTTTGGCGGACGTTTCGGTAAATCATAGTAGAACCGGAGCGGTAAAGCTATTGATAACACGCAGGGACGAGCCAGTCGTCTAAGCTCCTCAGGGGTACCGTTCGCCGGACTACAGCCTGTCCCCGGCGGCCGCAACTGGGCTGCGATCCAGCCCCCGCTCCAAAAGGATGACTCGACCTTGCGCCTCGCGTACTCTGCTCTCGAGCTGTCTCCGTGGGCAATGCCGGCTCACGCTGTGGGGAACCCTGGACGCCCGGGCCGAGCCGACGTGGCCCCGCCCAGGCCTTTTCGTCGATCGCAGCTATGTACCCTGTGCTGGCCAGCGCTACTGCGCCGGCCATTAGCGGTGCGCTCTCGACTCGGCCCCAACGTAGACGGCGTCGCTGGCCGGATTCAAAGAAGTGAGCTACTACCATCGCGTGACGCCCTGCGGGCCTGAGTAACCGTGCACGAAGGACACCCCGTTCGTGGCGGGGGTTGCCTCCGCGACGGTCGCCAACGTTGGGGGTCGGTGCATTCAGGCGACGAGGGACCGCTGGTTTCCGGAGAGCGGCCTGTGCTCACACAGGTGCGGTCCATGGGGCCTGTGGATCCGGTTCTCCCACGCGTAGCGCCGGCGTTAGCATGGACGCTAAATAAGTATACGCCGGCAAAGGGAGTGTAGGCCGGCCCGAGGGCAATCGCGGTTACCGGGGTGGGGGAGCTCCCCGCACCAGCCTTGATGTGGTGTGCGAGCG</pbmeta:CustomSequence>
+				</pbmeta:ControlKit>
+				<pbmeta:TemplatePrepKit Barcode="Lxxxxx100938900123199" Description="The SMRTbell® Template Prep Kit contains reagent supplies to perform 96 automated SMRTbell non-size-selected library preparations of primer-annealed SMRTbell libraries for insert sizes ranging from 500 bp to over 20 kb. Reagents come in 4 x 24 reaction sets." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" MaxInsertSize="20000" MinInsertSize="500" Name="SMRTbell® Express Template Prep Kit 2.0" PartNumber="100-938-900" Tags="Template Prep Kit, TPK" Version="2.0">
+					<pbmeta:LeftAdaptorSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbmeta:LeftAdaptorSequence>
+					<pbmeta:LeftPrimerSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">aacggaggaggagga</pbmeta:LeftPrimerSequence>
+					<pbmeta:RightAdaptorSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbmeta:RightAdaptorSequence>
+					<pbmeta:RightPrimerSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">aacggaggaggagga</pbmeta:RightPrimerSequence>
+				</pbmeta:TemplatePrepKit>
+				<pbmeta:BindingKit Barcode="Lxxxxx101894200123199" ChipType="8mChip" Description="The Sequel II Binding Kit 2.2 contains reagent supplies to bind prepared DNA template libraries to the Sequel Polymerase 2.2 in preparation for sequencing on the Sequel System. The result is a DNA polymerase/template complex. Sequel II Binding Kit 2.2 should be used only with Sequel II Sequencing Kit 2.0. Reagent quantities support 24 binding reactions." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II Binding Kit 2.2" PartNumber="101-894-200" Tags="Binding Kit, BDK" Version="1.0" />
+				<pbmeta:SequencingKitPlate Barcode="129324101826100110123" ChipType="8mChip" Description="The DNA Sequencing Kit contains a sequencing reagent plate with chemistry for single molecule real-time sequencing on the PacBio Sequel® Dev with Dynamic Loading. Reagent quantities support 4 sequencing reactions to be used in conjunction with SMRT® Cell 4Pac(s).  (4 Cells max/Each Row supplies reagents for 1 Sequel SMRT Cell)" ExpirationDate="2023-11-01" LotNumber="129324" MaxCollections="4" Name="Sequel® II Sequencing Plate 2.0 (4 rxn)" NumOseTubes="0" PartNumber="101-826-100" SupportsDynamicLoading="true" Tags="Sequencing Kit, SQK" Version="2.0">
+					<pbmeta:ReagentTubes Barcode="019747100619600063025" ExpirationDate="2025-06-30" LotNumber="019747" Name="Sequel® SMRT®Cell Oil" PartNumber="100-619-600" xmlns="http://pacificbiosciences.com/PacBioReagentKit.xsd" />
+				</pbmeta:SequencingKitPlate>
+				<pbmeta:Primary>
+					<pbmeta:AutomationName>SequelAlpha</pbmeta:AutomationName>
+					<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+					<pbmeta:SequencingCondition>DefaultPrimarySequencingCondition</pbmeta:SequencingCondition>
+					<pbmeta:CCSOptions>
+						<pbmeta:ExecutionMode>OnInstrument</pbmeta:ExecutionMode>
+						<pbmeta:IncludeKinetics>true</pbmeta:IncludeKinetics>
+					</pbmeta:CCSOptions>
+					<pbmeta:OutputOptions>
+						<pbmeta:ResultsFolder>r64241e_20230317_124240/1_A01/</pbmeta:ResultsFolder>
+						<pbmeta:CollectionPathUri>/projects/codon_0000/data/RapunzlSequel2e/r64241e_20230317_124240/1_A01/</pbmeta:CollectionPathUri>
+						<pbmeta:CopyFiles>
+							<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+						</pbmeta:CopyFiles>
+						<pbmeta:Readout>Bases_Without_QVs</pbmeta:Readout>
+						<pbmeta:MetricsVerbosity>Minimal</pbmeta:MetricsVerbosity>
+						<pbmeta:TransferResource>
+							<pbmeta:Id>srs-scheme-1</pbmeta:Id>
+							<pbmeta:TransferScheme>SRS</pbmeta:TransferScheme>
+							<pbmeta:Name>University of Copenhagen SRS</pbmeta:Name>
+							<pbmeta:Description>Description of SRS (Rsync+SSH) Transfer SRS scheme name with destPath</pbmeta:Description>
+							<pbmeta:DestPath>/projects/codon_0000/data/RapunzlSequel2e</pbmeta:DestPath>
+						</pbmeta:TransferResource>
+					</pbmeta:OutputOptions>
+				</pbmeta:Primary>
+				<pbmeta:Secondary>
+					<pbmeta:AutomationName>DefaultSecondaryAutomationName</pbmeta:AutomationName>
+					<pbbase:AutomationParameters>
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="SourceId" SimpleValue="smrtlink-ui" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="CCS" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="CCSMode" SimpleValue="OnInstrument" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="AllReads" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="CpG" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="AAV" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="Kinetics" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="Heteroduplex" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="Demultiplex" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="DemultiplexMode" SimpleValue="OnInstrument" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="BarcodesUuid" SimpleValue="a512b00f-c64b-a631-c886-6adc57f942b5" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2023-03-17T12:30:37.702Z" ModifiedAt="0001-01-01T00:00:00" Name="DemultiplexPreset" SimpleValue="SYMMETRIC-ADAPTERS" ValueDataType="String" />
+					</pbbase:AutomationParameters>
+					<pbmeta:CellCountInJob>0</pbmeta:CellCountInJob>
+					<pbmeta:BarcodesFasta>PmJjMjAwMQpBVENHVEdDR0FDR0FHVEFUCj5iYzIwMDIKVEdDQVRHVENBVEdBR1RBVAo+YmMyMDAzCkFDR0FHVEdDVENHQUdUQVQKPmJjMjAwNApUR0NBR1RHQ1RDR0FHVEFUCj5iYzIwMDUKVEdBQ1RDR0FUQ0dBR1RBVAo+YmMyMDA2CkNBVEdDR0FUQ1RHQUdUQVQKPmJjMjAwNwpBQ1RBR0NBVENUR0FHVEFUCj5iYzIwMDgKQUNHQ1RBR1RDVEdBR1RBVAo+YmMyMDA5CkNHQVRDR0NBQ1RHQUdUQVQKPmJjMjAxMApUQUNHVEFHVEFUR0FHVEFUCj5iYzIwMTEKQ1RHQUNBR1RBQ0dBR1RBVAo+YmMyMDEyClRDR1RBQ1RBQ1RHQUdUQVQKPmJjMjAxMwpDVEdDR1RBR0FDR0FHVEFUCj5iYzIwMTQKQVRBQ0FUR0NBQ0dBR1RBVAo+YmMyMDE1CkNHQUNBVEFHQVRHQUdUQVQKPmJjMjAxNgpBVENUR0NBQ0dUR0FHVEFUCj5iYzIwMTcKQ1RBVEdBVEFHQ0dBR1RBVAo+YmMyMDE4CkNHQVRDQUdUR0NHQUdUQVQKPmJjMjAxOQpDR1RDQVRBR1RDR0FHVEFUCj5iYzIwMjAKQUNUQVRHQ0dUQ0dBR1RBVAo+YmMyMDIxCkNHVEFDQVRHQ1RHQUdUQVQKPmJjMjAyMgpUQ0FUQ0dBQ0dUR0FHVEFUCj5iYzIwMjMKVENHQ0FUR0FDVEdBR1RBVAo+YmMyMDI0CkNBVEdBVENHQUNHQUdUQVQKPmJjMjAyNQpBQ0dDQUNHVEFDR0FHVEFUCj5iYzIwMjYKQ0FHVEFHQ0dUQ0dBR1RBVAo+YmMyMDI3ClRHQUNUR1RBR0NHQUdUQVQKPmJjMjAyOApBQ1RHQ0FHQ0FDR0FHVEFUCj5iYzIwMjkKVEFHQ0FHVEFUQ0dBR1RBVAo+YmMyMDMwCkNBVEFDQUdDQVRHQUdUQVQKPmJjMjAzMQpBVEFHQ0dUQUNUR0FHVEFUCj5iYzIwMzIKQVRBR0FDR0FHVEdBR1RBVAo+YmMyMDMzCkNHQUNUQ0dUQVRHQUdUQVQKPmJjMjAzNApUQUNUQUdUR0FDR0FHVEFUCj5iYzIwMzUKQ0FHQ1RHQUNBVEdBR1RBVAo+YmMyMDM2CkFDR1RDR0NUR0NHQUdUQVQKPmJjMjAzNwpDQUdUQVRHQUdDR0FHVEFUCj5iYzIwMzgKVENBQ0dBQ0dBQ0dBR1RBVAo+YmMyMDM5CkNBVEdUQVRHVENHQUdUQVQKPmJjMjA0MApUR0NUR0NHQUNUR0FHVEFUCj5iYzIwNDEKVEFUR0FUQ0FDVEdBR1RBVAo+YmMyMDQyClRDVEdDQUNUR0NHQUdUQVQKPmJjMjA0MwpBQ0dBVEdBQ0dUR0FHVEFUCj5iYzIwNDQKQ0dBVEdBVEdDVEdBR1RBVAo+YmMyMDQ1ClRBQ0dBQ0FHVENHQUdUQVQKPmJjMjA0NgpBVEFHQ0FUR1RDR0FHVEFUCj5iYzIwNDcKQ0FUQUdUQUNUQ0dBR1RBVAo+YmMyMDQ4ClRHQVRHQ1RBR1RHQUdUQVQKPmJjMjA0OQpUQUdUQ1RHQ0dUR0FHVEFUCj5iYzIwNTAKQ1RDQVRDVEFUQ0dBR1RBVAo+YmMyMDUxClRHQ0FUQUNUR0NHQUdUQVQKPmJjMjA1MgpDQUdBQ1RBR1RDR0FHVEFUCj5iYzIwNTMKQVRDR1RHQVRDVEdBR1RBVAo+YmMyMDU0CkNUR0NHQVRDQUNHQUdUQVQKPmJjMjA1NQpDVENBR0NBVEFDR0FHVEFUCj5iYzIwNTYKVENHQ0FHQ0dUQ0dBR1RBVAo+YmMyMDU3ClRBR0NBQ0dDQVRHQUdUQVQKPmJjMjA1OApUQUNUR0FDR0NUR0FHVEFUCj5iYzIwNTkKQVRDVEdBQ1RBVEdBR1RBVAo+YmMyMDYwCkFUQUNHQUdDVENHQUdUQVQKPmJjMjA2MQpDR0FHQ0FDR0NUR0FHVEFUCj5iYzIwNjIKVENUR0NHVEFUQ0dBR1RBVAo+YmMyMDYzClRDVEdDQVRDQVRHQUdUQVQKPmJjMjA2NApUR0NHVEdBVEdDR0FHVEFUCj5iYzIwNjUKVEdBR0NUQVRHQ0dBR1RBVAo+YmMyMDY2CkNUR1RDR1RBR1RHQUdUQVQKPmJjMjA2NwpBVENHQVRHQ0FUR0FHVEFUCj5iYzIwNjgKQUNUQUNHVEdBVEdBR1RBVAo+YmMyMDY5ClRDVEFUR0FDQVRHQUdUQVQKPmJjMjA3MApUQUNUR0NUQ0FDR0FHVEFUCj5iYzIwNzEKQ0dBR1RDVEFHQ0dBR1RBVAo+YmMyMDcyClRBVENBR1RBR1RHQUdUQVQKPmJjMjA3MwpBVENBQ1RBR1RDR0FHVEFUCj5iYzIwNzQKVEFUQ0FDR0FDVEdBR1RBVAo+YmMyMDc1CkNUQ0dUQ0FHQVRHQUdUQVQKPmJjMjA3NgpDQUdDQUdUR0FDR0FHVEFUCj5iYzIwNzcKVEdDR0FDR1RHQ0dBR1RBVAo+YmMyMDc4CkNUQ0FDVEdBR1RHQUdUQVQKPmJjMjA3OQpDQUNUR0FHQ0dUR0FHVEFUCj5iYzIwODAKQ0FHQ0dUQ1RBQ0dBR1RBVAo+YmMyMDgxCkNUQUNUQVRHVENHQUdUQVQKPmJjMjA4MgpBVEdUQUNBR0FDR0FHVEFUCj5iYzIwODMKQUNUQ0FUQ0FHVEdBR1RBVAo+YmMyMDg0CkNUR0FHQ0FDVENHQUdUQVQKPmJjMjA4NQpBVENBVENUQUNUR0FHVEFUCj5iYzIwODYKVEFDQVRHQ0dBVEdBR1RBVAo+YmMyMDg3ClRDR0NUR1RDQUNHQUdUQVQKPmJjMjA4OApBQ0dDVENBVEdDR0FHVEFUCj5iYzIwODkKVEFDVEFHQ0FHQ0dBR1RBVAo+YmMyMDkwCkNHVEFHQ0FHQVRHQUdUQVQKPmJjMjA5MQpDR1RHQ1RDR1RDR0FHVEFUCj5iYzIwOTIKQUNBR0NUR1RBQ0dBR1RBVAo+YmMyMDkzClRDR0FUR0NUQUNHQUdUQVQKPmJjMjA5NApUQUdBVEFDQUdDR0FHVEFUCj5iYzIwOTUKQ1RBQ1RDQVRBQ0dBR1RBVAo+YmMyMDk2CkFUR1RBQ1RBR1RHQUdUQVQK</pbmeta:BarcodesFasta>
+				</pbmeta:Secondary>
+				<pbmeta:UserDefinedFields>
+					<pbmeta:DataEntities Name=" LIMS_IMPORT " SimpleValue="DefaultUserDefinedFieldLIMS" ValueDataType="String" xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" />
+				</pbmeta:UserDefinedFields>
+				<pbmeta:ComponentVersions>
+					<pbmeta:VersionInfo Name="ics" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="iui" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="chemistry" Version="11.0.1.159204" />
+					<pbmeta:VersionInfo Name="pa" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="paws" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="ppa" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="realtime" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="transfer" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="smrtlink" Version="11.0.0.146107" />
+					<pbmeta:VersionInfo Name="smrtimisc" Version="11.0.0.146107" />
+					<pbmeta:VersionInfo Name="smrtinub" Version="11.0.0.146107" />
+					<pbmeta:VersionInfo Name="smrtlink-analysisservices-gui" Version="11.0.0.146107" />
+					<pbmeta:VersionInfo Name="smrttools" Version="11.0.0.146107" />
+				</pbmeta:ComponentVersions>
+			</CollectionMetadata>
+		</Collections>
+	</pbds:DataSetMetadata>
+</pbds:ConsensusReadSet>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pbds:ConsensusReadSet CreatedAt="2025-10-10T05:10:53.401Z" MetaType="PacBio.DataSet.ConsensusReadSet" Name="PB064_P2-Cell2 (CCS)" Tags="ccs,barcoded" TimeStampedName="PB064_P2-Cell2 (CCS)-251010_051053401" UniqueId="7bfbffad-797c-42bf-bf14-5a62cec17439" Version="3.0.1" xmlns:pbbase="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" xmlns:pbdm="http://pacificbiosciences.com/PacBioDataModel.xsd" xmlns:pbmeta="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd" xmlns:pbpn="http://pacificbiosciences.com/PacBioPartNumbers.xsd" xmlns:pbrk="http://pacificbiosciences.com/PacBioReagentKit.xsd" xmlns:pbsample="http://pacificbiosciences.com/PacBioSampleInfo.xsd" xmlns="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pacificbiosciences.com/PacBioDatasets.xsd" xmlns:pbds="http://pacificbiosciences.com/PacBioDatasets.xsd">
+	<pbds:DataSetMetadata>
+		<pbds:TotalLength>588332611</pbds:TotalLength>
+		<pbds:NumRecords>71302</pbds:NumRecords>
+		<Collections xmlns="http://pacificbiosciences.com/PacBioCollectionMetadata.xsd">
+			<CollectionMetadata Context="m64241e_251009_061127" CreatedAt="2025-10-08T09:47:24.026+00:00" InstrumentId="64241e" InstrumentName="RapunzlSequel2e" MetaType="CollectionMetadata" ModifiedAt="0001-01-01T00:00:00" Status="Ready" TimeStampedName="64241e-CollectionMetadata-2025-16-08T10:16:22.194Z" UniqueId="f9d16d92-e190-47e0-be15-891e0f5cbdb2">
+				<pbmeta:MultiJobId>0</pbmeta:MultiJobId>
+				<pbmeta:ConsensusReadSetRef UniqueId="d566909c-5d14-4f5f-852d-74dfe9e569ab" />
+				<pbmeta:RunDetails>
+					<pbmeta:TimeStampedName>r64241e_20251008_101622</pbmeta:TimeStampedName>
+					<pbmeta:Name>Run20251008_PB064_1</pbmeta:Name>
+					<pbmeta:CreatedBy>admin</pbmeta:CreatedBy>
+					<pbmeta:WhenCreated>2025-10-08T09:47:24.026+00:00</pbmeta:WhenCreated>
+					<pbmeta:StartedBy>unknown</pbmeta:StartedBy>
+					<pbmeta:WhenStarted>0001-01-01T00:00:00</pbmeta:WhenStarted>
+				</pbmeta:RunDetails>
+				<pbmeta:WellSample CreatedAt="2025-10-08T09:47:24.026+00:00" Description="PB064_P2 - pool2" ModifiedAt="0001-01-01T00:00:00" Name="PB064_P2">
+					<pbmeta:WellName>B01</pbmeta:WellName>
+					<pbmeta:Application>microbialAssembly</pbmeta:Application>
+					<pbmeta:Concentration>0</pbmeta:Concentration>
+					<pbmeta:OnPlateLoadingConcentration>90</pbmeta:OnPlateLoadingConcentration>
+					<pbmeta:InsertSize>8000</pbmeta:InsertSize>
+					<pbmeta:IsoSeq>false</pbmeta:IsoSeq>
+					<pbmeta:IsCCS>true</pbmeta:IsCCS>
+					<pbmeta:SampleReuseEnabled>false</pbmeta:SampleReuseEnabled>
+					<pbmeta:StageHotstartEnabled>false</pbmeta:StageHotstartEnabled>
+					<pbmeta:SizeSelectionEnabled>false</pbmeta:SizeSelectionEnabled>
+					<pbmeta:UseCount>0</pbmeta:UseCount>
+					<pbmeta:DNAControlComplex>Sequel® II DNA Internal Control Complex 3.2</pbmeta:DNAControlComplex>
+					<pbsample:BioSamples xmlns="http://pacificbiosciences.com/PacBioSampleInfo.xsd">
+						<pbsample:BioSample Name="Bio Sample 199">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2015--bc2015" UniqueId="151db3ba-edc2-4bc5-8405-15ec028dbac1" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+						<pbsample:BioSample Name="Bio Sample 214">
+							<pbmeta:DNABarcodes>
+								<pbmeta:DNABarcode Name="bc2026--bc2026" UniqueId="24c400a6-8aba-4d76-ab58-570ed8babf12" />
+							</pbmeta:DNABarcodes>
+						</pbsample:BioSample>
+					</pbsample:BioSamples>
+				</pbmeta:WellSample>
+				<pbmeta:Automation Name="Diffusion">
+					<pbbase:AutomationParameters xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="MovieLength" SimpleValue="900.0" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingCognate" SimpleValue="True" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingTarget" SimpleValue="0.85" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DynamicLoadingMaxImmobilization" SimpleValue="120" ValueDataType="Int32" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ReuseCell" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ExtendFirst" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ExtensionTime" SimpleValue="120" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="ImmobilizationTime" SimpleValue="120.0" ValueDataType="Double" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="TotalSamples" SimpleValue="2" ValueDataType="Int32" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="InsertSize" SimpleValue="8000" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="PCDinPlate" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter Name="UsePredictiveLoadingBuffer" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter Name="CollectionNumber" SimpleValue="1" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="BindingKitPartNumber" SimpleValue="102-194-100" ValueDataType="String" />
+						<pbbase:AutomationParameter Name="PPAEstimatedDuration" SimpleValue="345" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPAMinDuration" SimpleValue="240.105" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPAMaxDuration" SimpleValue="449.895" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="PPATimeout" SimpleValue="1830" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="CCSOverheadDurationMinutesPerUmyGBase" SimpleValue="0.9" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="TipSearchMaxDuration" SimpleValue="576" ValueDataType="Int32" />
+						<pbbase:AutomationParameter Name="SNRCut" SimpleValue="1.5" ValueDataType="Double" />
+						<pbbase:AutomationParameter Name="HQRFMethod" SimpleValue="N2" ValueDataType="String" />
+					</pbbase:AutomationParameters>
+					<pbmeta:Defaults xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" />
+				</pbmeta:Automation>
+				<pbmeta:CollectionNumber>1</pbmeta:CollectionNumber>
+				<pbmeta:CellIndex>1</pbmeta:CellIndex>
+				<pbmeta:SetNumber>0</pbmeta:SetNumber>
+				<pbmeta:CellPac Barcode="DA288138" Description="Individual 4 Pack containing 4 SMRT®Cells each containing 7.76 million ZMWs" ExpirationDate="2024-10-02" LotNumber="420534" MovieTimeGrade="LR" Name="Sequel® II SMRT® Cell 8M (4/tray)" PartNumber="101-389-001" Version="1.0">
+					<pbmeta:ChipLayout xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">Spider_1p0_NTO</pbmeta:ChipLayout>
+				</pbmeta:CellPac>
+				<pbmeta:ControlKit Barcode="Lxxxxx102249600123199" ChipType="8mChip" Description="Sequel II DNA Internal Control Complex 3.2 contains a fixed template of 11 kb length, bound to Sequel DNA Polymerase 2.2 for use as an internal sequencing control on the Sequel System. Reagent quantities provide spike-in controls for a minimum of 24 samples." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II DNA Internal Control Complex 3.2" PartNumber="102-249-600" Tags="Control Kit, CCK" Version="1.0">
+					<pbmeta:CustomSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">&gt;left_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;right_adapter\nTAGAGAGAGAAAAGGAGGAGGAGGCAACAACAACAACTCTCTCTA\n&gt;custom_sequence\nTCCCGACTGGAAAGCGGGCAGTGAGCGCAACGCAATTAATGTGAGTTAGCTCACTCATTAGGCACCCCAGGCTTTACACTTTATGCTTCCGGCTCGTATGTTGTGTGGAATTGTGAGCGGATAACAATTTCACACAGGAAACAGCTATGACCATGATTACGCCAAGCTTGCATGCCTGCAGGTCGACTCTAGAGGATCCCCCTGGCCGCATCCAGACTCAAATCAACGACCAGATCGCCTACCGGTTCAGCCATACCGGACTCCTCCTGCGATCCCTTCTGATACTGTCATCAGCATTACGTCATCCTCCGTCATGTCCGCCACATCCGGGGAAGCGGGGATAACTTCATTCCCGTCCGGGCCAAAGCGGACACCTCCGGCAAGCCCTGCCGCTTTCTGCAGCAGGCTCGCCAGCAGCGCACTGAGATCCAGCTGCCAGCGGGAAATACTGATGCGCAGCGCCGCCAGCGCATAAACGAAGCAGTCGAGTGCCTCATTGCGTCGCTTTTTGCTGTCCCACAGTATTTTTTTCCTGCCATCCACCCATTTTTCGACCTGCTCTTCAGCAGTCAGCTGCTGCGCTTCGGTCAGATCAAAAATAGGGTACCGAGCTCGAATTCACTGGCCGTCGTTTTACAACGTCGTGACTGGGAAAACCCTGGCGTTACCCAACTTAATCGCCTTGCAGCACATCCCCCTTTCGCCAGCTGGCGTAATAGCGAAGAGGCCCGCACCGATCGCCCTTCCCAACAGTTGCGCAGCCTGAATGGCGAATGGCGCCTGATGCGGTATTTTCTCCTTA</pbmeta:CustomSequence>
+				</pbmeta:ControlKit>
+				<pbmeta:TemplatePrepKit Barcode="Lxxxxx102141700123199" ChipType="8mChip" Description="The SMRTbell® Prep Kit contains reagent supplies to perform SMRTbell library preparations of primer-annealed SMRTbell libraries for insert sizes ranging from 500 bp to over 20 kb." ExpirationDate="2099-12-31" LotNumber="Lxxxxx" MaxInsertSize="20000" MinInsertSize="500" Name="Overhang - SMRTbell® Prep Kit 3.0/Kinnex v1" PartNumber="102-141-700" Tags="Template Prep Kit, TPK" Version="1.0">
+					<pbmeta:LeftAdaptorSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbmeta:LeftAdaptorSequence>
+					<pbmeta:LeftPrimerSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">aacggaggaggagga</pbmeta:LeftPrimerSequence>
+					<pbmeta:RightAdaptorSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">ATCTCTCTCAACAACAACAACGGAGGAGGAGGAAAAGAGAGAGAT</pbmeta:RightAdaptorSequence>
+					<pbmeta:RightPrimerSequence xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd">aacggaggaggagga</pbmeta:RightPrimerSequence>
+				</pbmeta:TemplatePrepKit>
+				<pbmeta:BindingKit Barcode="Lxxxxx102194100123199" ChipType="8mChip" Description="he Sequel II Binding Kit 3.2 contains reagent supplies to bind prepared DNA template libraries to the Sequel II Polymerase 2.2 in preparation for HiFi sequencing. The result is a DNA polymerase template complex ready for use with Adaptive Loading on the Sequel II and Sequel IIe Systems. Sequel II Polymerase 2.2 should be used with Sequel II Sequencing Kit 2.0. Reagent quantities support at least 24 binding reactions, and at least 3 SMRT Cells 8M per reaction (72 cells total), depending on use case, sample size and concentration. Note: Sequel II Binding Kit 3.2 is not recommended for inserts smaller than 3 kb" ExpirationDate="2099-12-31" LotNumber="Lxxxxx" Name="Sequel® II Binding Kit 3.2" PartNumber="102-194-100" Tags="Binding Kit, BDK" Version="1.0" />
+				<pbmeta:SequencingKitPlate Barcode="039541101826100051926" ChipType="8mChip" Description="The DNA Sequencing Kit contains a sequencing reagent plate with chemistry for single molecule real-time sequencing on the PacBio Sequel® Dev with Dynamic Loading. Reagent quantities support 4 sequencing reactions to be used in conjunction with SMRT® Cell 4Pac(s).  (4 Cells max/Each Row supplies reagents for 1 Sequel SMRT Cell)" ExpirationDate="2026-05-19" LotNumber="039541" MaxCollections="4" Name="Sequel® II Sequencing Plate 2.0 (4 rxn)" NumOseTubes="0" PartNumber="101-826-100" SupportsDynamicLoading="true" Tags="Sequencing Kit, SQK" Version="2.0">
+					<pbmeta:ReagentTubes Barcode="034229100619600083126" ExpirationDate="2026-08-31" LotNumber="034229" Name="Sequel® SMRT®Cell Oil" PartNumber="100-619-600" xmlns="http://pacificbiosciences.com/PacBioReagentKit.xsd" />
+				</pbmeta:SequencingKitPlate>
+				<pbmeta:Primary>
+					<pbmeta:AutomationName>SequelAlpha</pbmeta:AutomationName>
+					<pbmeta:ConfigFileName>SqlPoC_SubCrf_2C2A-t2.xml</pbmeta:ConfigFileName>
+					<pbmeta:SequencingCondition>DefaultPrimarySequencingCondition</pbmeta:SequencingCondition>
+					<pbmeta:CCSOptions>
+						<pbmeta:ExecutionMode>OnInstrument</pbmeta:ExecutionMode>
+						<pbmeta:IncludeKinetics>true</pbmeta:IncludeKinetics>
+					</pbmeta:CCSOptions>
+					<pbmeta:OutputOptions>
+						<pbmeta:ResultsFolder>r64241e_20251008_101622/2_B01/</pbmeta:ResultsFolder>
+						<pbmeta:CollectionPathUri>/projects/codon_0000/data/RapunzlSequel2e/r64241e_20251008_101622/2_B01/</pbmeta:CollectionPathUri>
+						<pbmeta:CopyFiles>
+							<pbmeta:CollectionFileCopy>Bam</pbmeta:CollectionFileCopy>
+							<pbmeta:CollectionFileCopy>Fasta</pbmeta:CollectionFileCopy>
+						</pbmeta:CopyFiles>
+						<pbmeta:Readout>Bases_Without_QVs</pbmeta:Readout>
+						<pbmeta:MetricsVerbosity>Minimal</pbmeta:MetricsVerbosity>
+						<pbmeta:TransferResource>
+							<pbmeta:Id>srs-scheme-1</pbmeta:Id>
+							<pbmeta:TransferScheme>SRS</pbmeta:TransferScheme>
+							<pbmeta:Name>University of Copenhagen SRS</pbmeta:Name>
+							<pbmeta:Description>Description of SRS (Rsync+SSH) Transfer SRS scheme name with destPath</pbmeta:Description>
+							<pbmeta:DestPath>/projects/codon_0000/data/RapunzlSequel2e</pbmeta:DestPath>
+						</pbmeta:TransferResource>
+					</pbmeta:OutputOptions>
+				</pbmeta:Primary>
+				<pbmeta:Secondary>
+					<pbmeta:AutomationName>SMRTLinkRunDesign</pbmeta:AutomationName>
+					<pbbase:AutomationParameters>
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="SourceId" SimpleValue="smrtlink-rest-api" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="CCS" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="CCSMode" SimpleValue="OnInstrument" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="Kinetics" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="AllReads" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="Demultiplex" SimpleValue="True" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DemultiplexMode" SimpleValue="OnInstrument" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="BarcodesUuid" SimpleValue="39f99ea1-448e-9f61-f4de-32f029a62c84" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="DemultiplexPreset" SimpleValue="SYMMETRIC-ADAPTERS" ValueDataType="String" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="CpG" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="AAV" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="Heteroduplex" SimpleValue="False" ValueDataType="Boolean" />
+						<pbbase:AutomationParameter CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name="SampleSubreadsPct" SimpleValue="0" ValueDataType="Int32" />
+					</pbbase:AutomationParameters>
+					<pbmeta:BarcodesFasta>PmJjMjAwMQpBVENHVEdDR0FDR0FHVEFUCj5iYzIwMDIKVEdDQVRHVENBVEdBR1RBVAo+YmMyMDAzCkFDR0FHVEdDVENHQUdUQVQKPmJjMjAwNApUR0NBR1RHQ1RDR0FHVEFUCj5iYzIwMDUKVEdBQ1RDR0FUQ0dBR1RBVAo+YmMyMDA2CkNBVEdDR0FUQ1RHQUdUQVQKPmJjMjAwNwpBQ1RBR0NBVENUR0FHVEFUCj5iYzIwMDgKQUNHQ1RBR1RDVEdBR1RBVAo+YmMyMDA5CkNHQVRDR0NBQ1RHQUdUQVQKPmJjMjAxMApUQUNHVEFHVEFUR0FHVEFUCj5iYzIwMTEKQ1RHQUNBR1RBQ0dBR1RBVAo+YmMyMDEyClRDR1RBQ1RBQ1RHQUdUQVQKPmJjMjAxMwpDVEdDR1RBR0FDR0FHVEFUCj5iYzIwMTQKQVRBQ0FUR0NBQ0dBR1RBVAo+YmMyMDE1CkNHQUNBVEFHQVRHQUdUQVQKPmJjMjAxNgpBVENUR0NBQ0dUR0FHVEFUCj5iYzIwMTcKQ1RBVEdBVEFHQ0dBR1RBVAo+YmMyMDE4CkNHQVRDQUdUR0NHQUdUQVQKPmJjMjAxOQpDR1RDQVRBR1RDR0FHVEFUCj5iYzIwMjAKQUNUQVRHQ0dUQ0dBR1RBVAo+YmMyMDIxCkNHVEFDQVRHQ1RHQUdUQVQKPmJjMjAyMgpUQ0FUQ0dBQ0dUR0FHVEFUCj5iYzIwMjMKVENHQ0FUR0FDVEdBR1RBVAo+YmMyMDI0CkNBVEdBVENHQUNHQUdUQVQKPmJjMjAyNQpBQ0dDQUNHVEFDR0FHVEFUCj5iYzIwMjYKQ0FHVEFHQ0dUQ0dBR1RBVAo+YmMyMDI3ClRHQUNUR1RBR0NHQUdUQVQKPmJjMjAyOApBQ1RHQ0FHQ0FDR0FHVEFUCj5iYzIwMjkKVEFHQ0FHVEFUQ0dBR1RBVAo+YmMyMDMwCkNBVEFDQUdDQVRHQUdUQVQKPmJjMjAzMQpBVEFHQ0dUQUNUR0FHVEFUCj5iYzIwMzIKQVRBR0FDR0FHVEdBR1RBVAo+YmMyMDMzCkNHQUNUQ0dUQVRHQUdUQVQKPmJjMjAzNApUQUNUQUdUR0FDR0FHVEFUCj5iYzIwMzUKQ0FHQ1RHQUNBVEdBR1RBVAo+YmMyMDM2CkFDR1RDR0NUR0NHQUdUQVQKPmJjMjAzNwpDQUdUQVRHQUdDR0FHVEFUCj5iYzIwMzgKVENBQ0dBQ0dBQ0dBR1RBVAo+YmMyMDM5CkNBVEdUQVRHVENHQUdUQVQKPmJjMjA0MApUR0NUR0NHQUNUR0FHVEFUCj5iYzIwNDEKVEFUR0FUQ0FDVEdBR1RBVAo+YmMyMDQyClRDVEdDQUNUR0NHQUdUQVQKPmJjMjA0MwpBQ0dBVEdBQ0dUR0FHVEFUCj5iYzIwNDQKQ0dBVEdBVEdDVEdBR1RBVAo+YmMyMDQ1ClRBQ0dBQ0FHVENHQUdUQVQKPmJjMjA0NgpBVEFHQ0FUR1RDR0FHVEFUCj5iYzIwNDcKQ0FUQUdUQUNUQ0dBR1RBVAo+YmMyMDQ4ClRHQVRHQ1RBR1RHQUdUQVQKPmJjMjA0OQpUQUdUQ1RHQ0dUR0FHVEFUCj5iYzIwNTAKQ1RDQVRDVEFUQ0dBR1RBVAo+YmMyMDUxClRHQ0FUQUNUR0NHQUdUQVQKPmJjMjA1MgpDQUdBQ1RBR1RDR0FHVEFUCj5iYzIwNTMKQVRDR1RHQVRDVEdBR1RBVAo+YmMyMDU0CkNUR0NHQVRDQUNHQUdUQVQKPmJjMjA1NQpDVENBR0NBVEFDR0FHVEFUCj5iYzIwNTYKVENHQ0FHQ0dUQ0dBR1RBVAo+YmMyMDU3ClRBR0NBQ0dDQVRHQUdUQVQKPmJjMjA1OApUQUNUR0FDR0NUR0FHVEFUCj5iYzIwNTkKQVRDVEdBQ1RBVEdBR1RBVAo+YmMyMDYwCkFUQUNHQUdDVENHQUdUQVQKPmJjMjA2MQpDR0FHQ0FDR0NUR0FHVEFUCj5iYzIwNjIKVENUR0NHVEFUQ0dBR1RBVAo+YmMyMDYzClRDVEdDQVRDQVRHQUdUQVQKPmJjMjA2NApUR0NHVEdBVEdDR0FHVEFUCj5iYzIwNjUKVEdBR0NUQVRHQ0dBR1RBVAo+YmMyMDY2CkNUR1RDR1RBR1RHQUdUQVQKPmJjMjA2NwpBVENHQVRHQ0FUR0FHVEFUCj5iYzIwNjgKQUNUQUNHVEdBVEdBR1RBVAo+YmMyMDY5ClRDVEFUR0FDQVRHQUdUQVQKPmJjMjA3MApUQUNUR0NUQ0FDR0FHVEFUCj5iYzIwNzEKQ0dBR1RDVEFHQ0dBR1RBVAo+YmMyMDcyClRBVENBR1RBR1RHQUdUQVQKPmJjMjA3MwpBVENBQ1RBR1RDR0FHVEFUCj5iYzIwNzQKVEFUQ0FDR0FDVEdBR1RBVAo+YmMyMDc1CkNUQ0dUQ0FHQVRHQUdUQVQKPmJjMjA3NgpDQUdDQUdUR0FDR0FHVEFUCj5iYzIwNzcKVEdDR0FDR1RHQ0dBR1RBVAo+YmMyMDc4CkNUQ0FDVEdBR1RHQUdUQVQKPmJjMjA3OQpDQUNUR0FHQ0dUR0FHVEFUCj5iYzIwODAKQ0FHQ0dUQ1RBQ0dBR1RBVAo+YmMyMDgxCkNUQUNUQVRHVENHQUdUQVQKPmJjMjA4MgpBVEdUQUNBR0FDR0FHVEFUCj5iYzIwODMKQUNUQ0FUQ0FHVEdBR1RBVAo+YmMyMDg0CkNUR0FHQ0FDVENHQUdUQVQKPmJjMjA4NQpBVENBVENUQUNUR0FHVEFUCj5iYzIwODYKVEFDQVRHQ0dBVEdBR1RBVAo+YmMyMDg3ClRDR0NUR1RDQUNHQUdUQVQKPmJjMjA4OApBQ0dDVENBVEdDR0FHVEFUCj5iYzIwODkKVEFDVEFHQ0FHQ0dBR1RBVAo+YmMyMDkwCkNHVEFHQ0FHQVRHQUdUQVQKPmJjMjA5MQpDR1RHQ1RDR1RDR0FHVEFUCj5iYzIwOTIKQUNBR0NUR1RBQ0dBR1RBVAo+YmMyMDkzClRDR0FUR0NUQUNHQUdUQVQKPmJjMjA5NApUQUdBVEFDQUdDR0FHVEFUCj5iYzIwOTUKQ1RBQ1RDQVRBQ0dBR1RBVAo+YmMyMDk2CkFUR1RBQ1RBR1RHQUdUQVQKPmJjMjA5NwpDQUNHQ1RDVEFUR0FHVEFUCj5iYzIwOTgKQ0FHVEdDR0FHVEdBR1RBVAo+YmMyMDk5CkNUR0FDVEdDR0FHQUdUQVQKPmJjMjEwMApUR1RDQVRDVEFUR0FHVEFUCj5iYzIxMDEKQ0FHQUdUQVRHQ0dBR1RBVAo+YmMyMTAyCkNUR0NBQ0FDQUNHQUdUQVQKPmJjMjEwMwpDR1RHQUdUR0FUR0FHVEFUCj5iYzIxMDQKQ0FUQ0FHQUNUQUdBR1RBVAo+YmMyMTA1CkNHQ1RDVEFUQUNHQUdUQVQKPmJjMjEwNgpDVEFUQVRDR0NUR0FHVEFUCj5iYzIxMDcKQUNHVEdUQUNHQUdBR1RBVAo+YmMyMTA4ClRHVENHQUNBR1RHQUdUQVQKPmJjMjEwOQpBQ0FHQ0dDR1RDR0FHVEFUCj5iYzIxMTAKQ0FUQUNUQ0dBVEdBR1RBVAo+YmMyMTExCkNHVEFHQ0dDQUNHQUdUQVQKPmJjMjExMgpUQUNHQ0FHQUdUR0FHVEFUCj5iYzIxMTMKVEdBVENBVENHQ0dBR1RBVAo+YmMyMTE0CkFUR1RHQ0dUQ1RHQUdUQVQKPmJjMjExNQpUQ0FHVEdBQ0dBR0FHVEFUCj5iYzIxMTYKVEdUQUNBQ0dUQ0dBR1RBVAo+YmMyMTE3CkNUQ0dBQ1RDVEFHQUdUQVQKPmJjMjExOApBR0NUQ0FUQUNBR0FHVEFUCj5iYzIxMTkKVENBQ0FDQUNHQ0dBR1RBVAo+YmMyMTIwCkFDVEFUQ0FDR0NHQUdUQVQKPmJjMjEyMQpUQ0dBR0NUQVRBR0FHVEFUCj5iYzIxMjIKQUNBQ0FDR1RDVEdBR1RBVAo+YmMyMTIzCkFHVEFHVEFHQ0FHQUdUQVQKPmJjMjEyNApBR1RHQ0dDQUNUR0FHVEFUCj5iYzIxMjUKQ0FDQUdUR0NBVEdBR1RBVAo+YmMyMTI2ClRHQ0dUR1RBR0FHQUdUQVQKPmJjMjEyNwpBR0NHQ0FUQ0dBR0FHVEFUCj5iYzIxMjgKQ0FHVENHQVRHQ0dBR1RBVAo+YmMyMTI5CkFDVENBQ0dDQVRHQUdUQVQKPmJjMjEzMApBVEdDVEdBVEdUR0FHVEFUCj5iYzIxMzEKVEFHQVRDR0FUQUdBR1RBVAo+YmMyMTMyCkNBVENUR0FDR0NHQUdUQVQKPmJjMjEzMwpBQ0dUR0FHQUdDR0FHVEFUCj5iYzIxMzQKQUNHVEdDVENUQUdBR1RBVAo+YmMyMTM1CkFDQUNHVEdDR1RHQUdUQVQKPmJjMjEzNgpBQ1RBVEFUQ1RDR0FHVEFUCj5iYzIxMzcKQ0dBR0FDR0NHQUdBR1RBVAo+YmMyMTM4CkNUQVRHVEdUR0FHQUdUQVQKPmJjMjEzOQpDR0NUR1RBVENUR0FHVEFUCj5iYzIxNDAKVENBQ0FHQVRDVEdBR1RBVAo+YmMyMTQxCkNBVENHQUdBR1RHQUdUQVQKPmJjMjE0MgpUR0FDR0NHVEdUR0FHVEFUCj5iYzIxNDMKVEdUR1RBVEFUQUdBR1RBVAo+YmMyMTQ0ClRHQUNBR0NUR0FHQUdUQVQKPmJjMjE0NQpUQUdUQVRHQ0FDR0FHVEFUCj5iYzIxNDYKQVRDVENBR1RDVEdBR1RBVAo+YmMyMTQ3CkNBR0FUQ0FUQ1RHQUdUQVQKPmJjMjE0OApDQUNHQUNUR0NUR0FHVEFUCj5iYzIxNDkKQ0dDQVRBQ0FHVEdBR1RBVAo+YmMyMTUwCkFHQ0dUQUNHQ1RHQUdUQVQKPmJjMjE1MQpUQVRBR0FHQUNUR0FHVEFUCj5iYzIxNTIKVEFUQUNBQ1RBVEdBR1RBVAo+YmMyMTUzCkNHQUNUR0FDVENHQUdUQVQKPmJjMjE1NApDR0NHQVRBQ1RDR0FHVEFUCj5iYzIxNTUKQUNHQ0FDVEdBVEdBR1RBVAo+YmMyMTU2CkFUQVRHVEdDQVRHQUdUQVQKPmJjMjE1NwpDVEdBVEdUR0NBR0FHVEFUCj5iYzIxNTgKVEdDVENBR1RHQUdBR1RBVAo+YmMyMTU5CkFUR0NBQ1RHVEFHQUdUQVQKPmJjMjE2MApBR0NHVENHVEFUR0FHVEFUCj5iYzIxNjEKVENUQ1RHVEdBVEdBR1RBVAo+YmMyMTYyCkNHQ0dDR1RBR1RHQUdUQVQKPmJjMjE2MwpUR0NHVEdDR0NBR0FHVEFUCj5iYzIxNjQKVEFUR0NUQ1RHQUdBR1RBVAo+YmMyMTY1CkFUQ0dUQVRHVEFHQUdUQVQKPmJjMjE2NgpDVENBQ0FHQ1RDR0FHVEFUCj5iYzIxNjcKQVRHQUNUR0FDVEdBR1RBVAo+YmMyMTY4ClRDQUNUQUdDVEFHQUdUQVQKPmJjMjE2OQpDVENBVEdDQUNBR0FHVEFUCj5iYzIxNzAKQ1RHQVRBR0FDVEdBR1RBVAo+YmMyMTcxCkFUR1RDVEFDQVRHQUdUQVQKPmJjMjE3MgpBVEdUR0FUQ0dDR0FHVEFUCj5iYzIxNzMKQVRBVEFHQUNHVEdBR1RBVAo+YmMyMTc0ClRDVENUQUNBVEFHQUdUQVQKPmJjMjE3NQpUQ1RHVENHQ0dDR0FHVEFUCj5iYzIxNzYKQUNBQ0dUQ0FDQUdBR1RBVAo+YmMyMTc3CkNHVENHVEdDR0NHQUdUQVQKPmJjMjE3OApBVEdBVENHQ1RBR0FHVEFUCj5iYzIxNzkKQUNUR0NHQUdDVEdBR1RBVAo+YmMyMTgwCkNUQ1RHVEFUR0NHQUdUQVQKPmJjMjE4MQpUQ1RHQUdUQUNUR0FHVEFUCj5iYzIxODIKVEFHVEdDR0NHQUdBR1RBVAo+YmMyMTgzCkFDVEdBR0NUQ0FHQUdUQVQKPmJjMjE4NApDQVRHQUdDQVRBR0FHVEFUCj5iYzIxODUKQ0dDR1RDQUdUQ0dBR1RBVAo+YmMyMTg2CkNBR0FDVEdDQUNHQUdUQVQKPmJjMjE4NwpDVEFUQ0dDQUdBR0FHVEFUCj5iYzIxODgKVEFDQUNHQUdUQUdBR1RBVAo+YmMyMTg5CkNUR1RBQ1RBVENHQUdUQVQKPmJjMjE5MApBQ0dUR0NBR1RDR0FHVEFUCj5iYzIxOTEKQUdUQUNHQ0FHQ0dBR1RBVAo+YmMyMTkyCkNUQ0dUQ0FDR0NHQUdUQVQKPmJjMjE5MwpBVENBVEFDQVRDR0FHVEFUCj5iYzIxOTQKQUdBQ1RDVEdUQUdBR1RBVAo+YmMyMTk1CkNHQ0dBR1RDR0FHQUdUQVQKPmJjMjE5NgpBR1RDQUdBQ0dDR0FHVEFUCj5iYzIxOTcKVEdUQ0dDVEFHQ0dBR1RBVAo+YmMyMTk4ClRDVEdDR0NUQ1RHQUdUQVQKPmJjMjE5OQpDVENBVEdDVEdUR0FHVEFUCj5iYzIyMDAKQ0FDQUdUQ0dUQ0dBR1RBVAo+YmMyMjAxCkFDQUNUQ0dDVENHQUdUQVQKPmJjMjIwMgpUR1RBR1RHQVRBR0FHVEFUCj5iYzIyMDMKQUNBQ0FDVEFDQUdBR1RBVAo+YmMyMjA0CkFDVEFUR0FHQ0FHQUdUQVQKPmJjMjIwNQpUQVRHQVRHVEFDR0FHVEFUCj5iYzIyMDYKQ1RBR0FHQ0dBVEdBR1RBVAo+YmMyMjA3CkNUQ0FUQUdDR0FHQUdUQVQKPmJjMjIwOApDQUNHQVRHQ0dBR0FHVEFUCj5iYzIyMDkKQVRBQ0dDQVRHQUdBR1RBVAo+YmMyMjEwClRDVEFDR0NBR1RHQUdUQVQKPmJjMjIxMQpBR0NUR1RHVEFDR0FHVEFUCj5iYzIyMTIKQUdUQ0dUQVRBVEdBR1RBVAo+YmMyMjEzCkNUQUdUQUdBR1RHQUdUQVQKPmJjMjIxNApBR0NBQ1RDQUdBR0FHVEFUCj5iYzIyMTUKQ0FDVEdBVEFDVEdBR1RBVAo+YmMyMjE2CkFUQ1RBR0FHQ1RHQUdUQVQKPmJjMjIxNwpDR0NHQ0FUQVRBR0FHVEFUCj5iYzIyMTgKQUNHVEFDQVRDQUdBR1RBVAo+YmMyMjE5CkNUQVRDVEFHQUNHQUdUQVQKPmJjMjIyMApDQUNBVENHVEdBR0FHVEFUCj5iYzIyMjEKVEdUR0NUQ0dDVEdBR1RBVAo+YmMyMjIyCkNUR1RHQ1RBQ0FHQUdUQVQKPmJjMjIyMwpDR1RDQUNUQ0FDR0FHVEFUCj5iYzIyMjQKQVRBQ0FUR0FUQUdBR1RBVAo+YmMyMjI1CkNHQ0FDVEFUR1RHQUdUQVQKPmJjMjIyNgpUQVRHVENHQUdBR0FHVEFUCj5iYzIyMjcKQVRBQ1RHVENHQUdBR1RBVAo+YmMyMjI4CkNHQ0FDQUdUQ1RHQUdUQVQKPmJjMjIyOQpBQ0FUR1RBR0FDR0FHVEFUCj5iYzIyMzAKVEFDVENBVENUQ0dBR1RBVAo+YmMyMjMxClRHQUdUQ0dDQUNHQUdUQVQKPmJjMjIzMgpUR1RHQUdDVEdDR0FHVEFUCj5iYzIyMzMKVEFUQ1RDVENHQ0dBR1RBVAo+YmMyMjM0CkNBQ0dUQ0dBQ1RHQUdUQVQKPmJjMjIzNQpBVEFUQ0dBR0FUR0FHVEFUCj5iYzIyMzYKQUNBVENUQ1RHVEdBR1RBVAo+YmMyMjM3CkFDR0NUQUNHQ0FHQUdUQVQKPmJjMjIzOApBR1RDVENBQ1RBR0FHVEFUCj5iYzIyMzkKQVRBVEFUQUdDQUdBR1RBVAo+YmMyMjQwClRDQUdBVEFHQ1RHQUdUQVQKPmJjMjI0MQpDR1RDQVRDR0NBR0FHVEFUCj5iYzIyNDIKQUNUQ1RDVEFHQUdBR1RBVAo+YmMyMjQzCkNUR1RBVEFDR0NHQUdUQVQKPmJjMjI0NApBQ0FHVENBR0FUR0FHVEFUCj5iYzIyNDUKVEdUQ0FDQVRHQUdBR1RBVAo+YmMyMjQ2CkNBQ1RBQ0FUQVRHQUdUQVQKPmJjMjI0NwpDVEdDR1RHQ0dUR0FHVEFUCj5iYzIyNDgKQUNUQUdDR0NHQUdBR1RBVAo+YmMyMjQ5CkNUQ0FDR1RBVEFHQUdUQVQKPmJjMjI1MApBVEFUQUNHVEdBR0FHVEFUCj5iYzIyNTEKQ1RBVENBVENUQUdBR1RBVAo+YmMyMjUyCkFDVEdDR1RDR0NHQUdUQVQKPmJjMjI1MwpUR1RBVENHVEdDR0FHVEFUCj5iYzIyNTQKQVRHQ0dBR0FHQUdBR1RBVAo+YmMyMjU1CkNHQ1RBR0FHVENHQUdUQVQKPmJjMjI1NgpDR1RDVEFHQUdBR0FHVEFUCj5iYzIyNTcKQ0dBQ0dDQUNHQUdBR1RBVAo+YmMyMjU4ClRBR0NUQUdUQ0FHQUdUQVQKPmJjMjI1OQpBR1RBVEFDVEFDR0FHVEFUCj5iYzIyNjAKVEdUQUdDQUdUQUdBR1RBVAo+YmMyMjYxClRHQ0FUQ1RBQ0FHQUdUQVQKPmJjMjI2MgpBVENBQ0FUQ0dDR0FHVEFUCj5iYzIyNjMKVENUQ0FDVENHVEdBR1RBVAo+YmMyMjY0CkFDVEFDVENUQ0FHQUdUQVQKPmJjMjI2NQpDQUNUQVRBR1RBR0FHVEFUCj5iYzIyNjYKQUdDVENUQUNUQ0dBR1RBVAo+YmMyMjY3ClRBR0FHQUNBQ0FHQUdUQVQKPmJjMjI2OApDR0FDQUdDVEFUR0FHVEFUCj5iYzIyNjkKVEdBQ0FDVENUQUdBR1RBVAo+YmMyMjcwCkNHVEFDR1RHVEFHQUdUQVQKPmJjMjI3MQpUQ0dBR0FDVENUR0FHVEFUCj5iYzIyNzIKVEdDVENHQ1RHVEdBR1RBVAo+YmMyMjczCkFDR0FHQUNUR0NHQUdUQVQKPmJjMjI3NApUR1RDVEFUQUNUR0FHVEFUCj5iYzIyNzUKVENBR1RBR1RHQUdBR1RBVAo+YmMyMjc2CkFHQ0FDQVRBVENHQUdUQVQKPmJjMjI3NwpDVENHQ0FDQUdBR0FHVEFUCj5iYzIyNzgKQVRDQUdUQ1RHQUdBR1RBVAo+YmMyMjc5CkFHQUNUQ1RDQUNHQUdUQVQKPmJjMjI4MApUR0NHQUdBR0NUR0FHVEFUCj5iYzIyODEKQ0dBR1RBVEFDQUdBR1RBVAo+YmMyMjgyCkFHQ1RDVEFHQVRHQUdUQVQKPmJjMjI4MwpUQUNBQ1RDR0NBR0FHVEFUCj5iYzIyODQKVEdBQ1RBQ1RBVEdBR1RBVAo+YmMyMjg1ClRDR1RDVEdBVENHQUdUQVQKPmJjMjI4NgpUQ0dDVENBQ0dUR0FHVEFUCj5iYzIyODcKQ1RHQ0dDQUdUQUdBR1RBVAo+YmMyMjg4ClRBVENHQ0FHQ1RHQUdUQVQKPmJjMjI4OQpUQ1RBVENBVEdUR0FHVEFUCj5iYzIyOTAKVEdDQUNBQ0FUQUdBR1RBVAo+YmMyMjkxClRDQUdBQ0dDVENHQUdUQVQKPmJjMjI5MgpDVEdUR0NHQ1RBR0FHVEFUCj5iYzIyOTMKQ0FUQVRHQ0FUQ0dBR1RBVAo+YmMyMjk0CkNBR0NHQUNHVEFHQUdUQVQKPmJjMjI5NQpDR0NUQVRDVEdUR0FHVEFUCj5iYzIyOTYKQ0FHQ1RDVEdDQUdBR1RBVAo+YmMyMjk3CkNBR0FUR1RBR0FHQUdUQVQKPmJjMjI5OApUQUdDR0FDVEdBR0FHVEFUCj5iYzIyOTkKVEFUR0NBVEFHQUdBR1RBVAo+YmMyMzAwClRDR0NHQUdBVENHQUdUQVQKPmJjMjMwMQpUQUNHVENUR1RBR0FHVEFUCj5iYzIzMDIKQUNBQ0FDQUdBQ0dBR1RBVAo+YmMyMzAzClRHVEdDR0FUQUNHQUdUQVQKPmJjMjMwNApDVENHQ0dUQ0FUR0FHVEFUCj5iYzIzMDUKQ0dDR1RBVEdBVEdBR1RBVAo+YmMyMzA2CkNBR0NBQ0dDR0NHQUdUQVQKPmJjMjMwNwpDVEFUR1RBVEFUR0FHVEFUCj5iYzIzMDgKQ1RBQ0FDVEFHQUdBR1RBVAo+YmMyMzA5ClRHQ0dDVENBQ0FHQUdUQVQKPmJjMjMxMApBQ1RBQ0FDVEdUR0FHVEFUCj5iYzIzMTEKQ1RDR0FHVEdBQ0dBR1RBVAo+YmMyMzEyCkFDQVRDR1RBR1RHQUdUQVQKPmJjMjMxMwpUQ0FHQVRDQUNBR0FHVEFUCj5iYzIzMTQKQ0dDQVRDR0NHVEdBR1RBVAo+YmMyMzE1ClRHQ1RDR0FHQ0FHQUdUQVQKPmJjMjMxNgpDQUdUR1RDVEdUR0FHVEFUCj5iYzIzMTcKVEdDVEFHQUNUQUdBR1RBVAo+YmMyMzE4ClRDR1RBVEdDR0FHQUdUQVQKPmJjMjMxOQpBVEdBQ0dBVEFDR0FHVEFUCj5iYzIzMjAKQVRDVEdUQVRDQUdBR1RBVAo+YmMyMzIxClRHVEFDR0FUQ0FHQUdUQVQKPmJjMjMyMgpDR0FUR0NUR1RBR0FHVEFUCj5iYzIzMjMKQ0FUQ1RBQ1RDVEdBR1RBVAo+YmMyMzI0CkFDVEFHVENUQVRHQUdUQVQKPmJjMjMyNQpBQ1RHVEdUR1RBR0FHVEFUCj5iYzIzMjYKQ1RDR1RHQUdDQUdBR1RBVAo+YmMyMzI3ClRBQ0dDVEFDVENHQUdUQVQKPmJjMjMyOApDQUNBR0FHVEdDR0FHVEFUCj5iYzIzMjkKQUNBR0NBR0FDQUdBR1RBVAo+YmMyMzMwCkNBR0NBVEFHQ0FHQUdUQVQKPmJjMjMzMQpDR0NHQ1RHQ1RBR0FHVEFUCj5iYzIzMzIKQ1RHVEFUQ0FDQUdBR1RBVAo+YmMyMzMzCkNHVEFHVEFUR0FHQUdUQVQKPmJjMjMzNApUR0FDQUdBR1RDR0FHVEFUCj5iYzIzMzUKQ1RDVENHQUdUQUdBR1RBVAo+YmMyMzM2CkNBQ1RHQ1RHQVRHQUdUQVQKPmJjMjMzNwpDVEdDVEFHQ0FUR0FHVEFUCj5iYzIzMzgKQ0FUQ1RDR1RBQ0dBR1RBVAo+YmMyMzM5CkFHQ0dDVEdUR0NHQUdUQVQKPmJjMjM0MApUQ0FUR1RHQ0FDR0FHVEFUCj5iYzIzNDEKQUdBQ1RBR1RHQUdBR1RBVAo+YmMyMzQyClRHQ0FDVEFHQUNHQUdUQVQKPmJjMjM0MwpDR0FDQUNHQUdDR0FHVEFUCj5iYzIzNDQKQ1RHQUNHQUNHVEdBR1RBVAo+YmMyMzQ1ClRDVENHQ0dBVEFHQUdUQVQKPmJjMjM0NgpBVEdBVEFDQUNBR0FHVEFUCj5iYzIzNDcKVEdUQUNHVENUQ0dBR1RBVAo+YmMyMzQ4CkNUQ1RDVEdBQ0FHQUdUQVQKPmJjMjM0OQpBQ1RHQVRBR1RDR0FHVEFUCj5iYzIzNTAKVEdUR0FUQ1RDQUdBR1RBVAo+YmMyMzUxCkNHVEdUQ0FUR0NHQUdUQVQKPmJjMjM1MgpBQ0dBQ0dDQVRDR0FHVEFUCj5iYzIzNTMKQ0FUR0NBQ0FDVEdBR1RBVAo+YmMyMzU0CkNUQUdBVEdUQ1RHQUdUQVQKPmJjMjM1NQpBQ1RHVEFHQVRBR0FHVEFUCj5iYzIzNTYKQ1RHQ1RDVENHQUdBR1RBVAo+YmMyMzU3ClRHQVRHVEFDVEFHQUdUQVQKPmJjMjM1OApBVEdBVENHVEdUR0FHVEFUCj5iYzIzNTkKQ0FDVEdUQ0FHQUdBR1RBVAo+YmMyMzYwCkNUQ1RBR1RHQ0FHQUdUQVQKPmJjMjM2MQpBQ1RDVEdUQ0dUR0FHVEFUCj5iYzIzNjIKQ1RHVENHQUNUQ0dBR1RBVAo+YmMyMzYzClRDR1RDR0FDVEFHQUdUQVQKPmJjMjM2NApDR1RBVENHQVRBR0FHVEFUCj5iYzIzNjUKVEdUR0FDR1RBVEdBR1RBVAo+YmMyMzY2CkNUR1RDR0NHQVRHQUdUQVQKPmJjMjM2NwpUQ0dDVEdBR1RBR0FHVEFUCj5iYzIzNjgKQUNBVEFDR0NHQ0dBR1RBVAo+YmMyMzY5CkFHQ0FDQUdDQUNHQUdUQVQKPmJjMjM3MApDR1RHQ0FDVEFUR0FHVEFUCj5iYzIzNzEKQ0FDVENHQ0dDVEdBR1RBVAo+YmMyMzcyCkNUR0NBVEdBR0FHQUdUQVQKPmJjMjM3MwpBQ1RDQVRBVEdBR0FHVEFUCj5iYzIzNzQKVEdDVEFUQ0dDQUdBR1RBVAo+YmMyMzc1CkFDR1RHVEFHQ1RHQUdUQVQKPmJjMjM3NgpUR0NBR1RHQUdUR0FHVEFUCj5iYzIzNzcKVEFDR0NHVEFHQ0dBR1RBVAo+YmMyMzc4CkFUQUdDQUNUQ0FHQUdUQVQKPmJjMjM3OQpUQVRBQ1RHQUdUR0FHVEFUCj5iYzIzODAKVENHQUNHVENHVEdBR1RBVAo+YmMyMzgxClRDR0NHQ0FUQUNHQUdUQVQKPmJjMjM4MgpDVEFDQUdBVEdBR0FHVEFUCj5iYzIzODMKVEdUQ1RHVEdUQ0dBR1RBVAo+YmMyMzg0ClRHQ0FUQ0FHQ1RHQUdUQVQKPmJjMTAwMQpDQUNBVEFUQ0FHQUdUR0NHVAo+YmMxMDAyCkFDQUNBQ0FHQUNUR1RHQUdUCj5iYzEwMDMKQUNBQ0FUQ1RDR1RHQUdBR1QKPmJjMTAwOApBQ0FHVENHQUdDR0NUR0NHVAo+YmMxMDA5CkFDQUNBQ0dDR0FHQUNBR0FUCj5iYzEwMTAKQUNHQ0dDVEFUQ1RDQUdBR1QKPmJjMTAxMQpDVEFUQUNHVEFUQVRDVEFUVAo+YmMxMDEyCkFDQUNUQUdBVENHQ0dUR1RUCj5iYzEwMTUKQ0dDQVRHQUNBQ0dUR1RHVFQKPmJjMTAxNgpDQVRBR0FHQUdBVEFHVEFUVAo+YmMxMDE3CkNBQ0FDR0NHQ0dDVEFUQVRUCj5iYzEwMTgKVENBQ0dUR0NUQ0FDVEdUR1QKPmJjMTAxOQpBQ0FDQUNUQ1RBVENBR0FUVAo+YmMxMDIwCkNBQ0dBQ0FDR0FDR0FUR1RUCj5iYzEwMjEKQ1RBVEFDQVRBR1RHQVRHVFQKPmJjMTAyMgpDQUNUQ0FDR1RHVEdBVEFUVAo=</pbmeta:BarcodesFasta>
+				</pbmeta:Secondary>
+				<pbmeta:UserDefinedFields>
+					<pbmeta:DataEntities CreatedAt="2025-10-08T09:47:24.026+00:00" ModifiedAt="0001-01-01T00:00:00" Name=" LIMS_IMPORT " SimpleValue="DefaultUserDefinedFieldLIMS" ValueDataType="String" xmlns="http://pacificbiosciences.com/PacBioBaseDataModel.xsd" />
+				</pbmeta:UserDefinedFields>
+				<pbmeta:ComponentVersions>
+					<pbmeta:VersionInfo Name="ics" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="iui" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="chemistry" Version="11.3.0.217691" />
+					<pbmeta:VersionInfo Name="pa" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="paws" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="ppa" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="realtime" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="transfer" Version="11.0.1.162970" />
+					<pbmeta:VersionInfo Name="smrtimisc" Version="13.1.0.221970" />
+					<pbmeta:VersionInfo Name="smrtlink" Version="13.1.0.221970" />
+					<pbmeta:VersionInfo Name="smrtlink-analysisservices-gui" Version="13.1.0.221970" />
+					<pbmeta:VersionInfo Name="smrttools" Version="13.1.0.221970" />
+					<pbmeta:VersionInfo Name="smrtinub" Version="13.1.0.221970" />
+				</pbmeta:ComponentVersions>
+			</CollectionMetadata>
+		</Collections>
+	</pbds:DataSetMetadata>
+	<pbbase:ExternalResources>
+		<pbbase:ExternalResource CreatedAt="2025-10-10T05:10:53.401Z" MetaType="PacBio.ConsensusReadFile.ConsensusReadBamFile" ResourceId="m64241e_251009_061127.unbarcoded.hifi_reads.bam" TimeStampedName="pacbio_consensusreadfile_consensusreadbamfile-251010_051053401" UniqueId="3ebc4feb-de9e-4536-b3ad-307833e176b2" Version="3.0.1">
+			<pbbase:FileIndices>
+				<pbbase:FileIndex CreatedAt="2025-10-10T05:10:53.401Z" MetaType="PacBio.Index.PacBioIndex" ResourceId="m64241e_251009_061127.unbarcoded.hifi_reads.bam.pbi" TimeStampedName="pacbio_index_pacbioindex-251010_051053401" UniqueId="c7d22c31-fa5a-4bf3-8bf0-1f22407b064f" Version="3.0.1" />
+			</pbbase:FileIndices>
+		</pbbase:ExternalResource>
+	</pbbase:ExternalResources>
+</pbds:ConsensusReadSet>
